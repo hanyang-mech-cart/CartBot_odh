@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/oh/slam_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/my_bot_description
+[0.267s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.660s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.754s] -- Added test 'lint_cmake' to check CMake code style
+[0.755s] -- Added test 'xmllint' to check XML markup files
+[0.757s] -- Configuring done
+[0.760s] -- Generating done
+[0.761s] -- Build files have been written to: /home/oh/slam_ws/build/my_bot_description
+[0.766s] Invoked command in '/home/oh/slam_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/my_bot_description
+[0.766s] Invoking command in '/home/oh/slam_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/my_bot_description -- -j8 -l8
+[0.799s] Invoked command in '/home/oh/slam_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/my_bot_description -- -j8 -l8
+[0.819s] Invoking command in '/home/oh/slam_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/my_bot_description
+[0.827s] -- Install configuration: ""
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/settings.json
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/c_cpp_properties.json
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot_description.urdf.xacro
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot.materials.xacro
+[0.827s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/rviz
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot.rviz
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot_view.rviz
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[0.828s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[0.829s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[0.829s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[0.829s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[0.829s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[0.829s] -- Installing: /home/oh/slam_ws/install/my_bot_description/share/my_bot_description/package.xml
+[0.831s] Invoked command in '/home/oh/slam_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/my_bot_description

@@ -1,0 +1,25 @@
+[1.279s] Invoking command in '/home/oh/slam_ws/build/escape_from_cart': PYTHONPATH=/home/oh/slam_ws/build/escape_from_cart/prefix_override:/home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/escape_from_cart/build --no-deps symlink_data
+[1.819s] running develop
+[1.820s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.820s]   warnings.warn(
+[2.167s] running egg_info
+[2.168s] creating escape_from_cart.egg-info
+[2.168s] writing escape_from_cart.egg-info/PKG-INFO
+[2.169s] writing dependency_links to escape_from_cart.egg-info/dependency_links.txt
+[2.169s] writing entry points to escape_from_cart.egg-info/entry_points.txt
+[2.170s] writing requirements to escape_from_cart.egg-info/requires.txt
+[2.170s] writing top-level names to escape_from_cart.egg-info/top_level.txt
+[2.170s] writing manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+[2.173s] reading manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+[2.174s] writing manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+[2.176s] running build_ext
+[2.177s] Creating /home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape-from-cart.egg-link (link to .)
+[2.178s] 
+[2.178s] Installed /home/oh/slam_ws/build/escape_from_cart
+[2.178s] running symlink_data
+[2.179s] creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index
+[2.179s] creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index
+[2.179s] creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index/packages
+[2.179s] symbolically linking /home/oh/slam_ws/build/escape_from_cart/resource/escape_from_cart -> /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index/packages
+[2.179s] symbolically linking /home/oh/slam_ws/build/escape_from_cart/package.xml -> /home/oh/slam_ws/install/escape_from_cart/share/escape_from_cart
+[2.235s] Invoked command in '/home/oh/slam_ws/build/escape_from_cart' returned '0': PYTHONPATH=/home/oh/slam_ws/build/escape_from_cart/prefix_override:/home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/escape_from_cart/build --no-deps symlink_data

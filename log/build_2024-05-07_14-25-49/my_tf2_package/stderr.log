@@ -1,0 +1,5 @@
+  File "/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages/my_tf2_package/my_static_cart_tf2_broadcaster.py", line 67
+    self.transformations_target = [
+                                  ^
+SyntaxError: '[' was never closed
+

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating escape_from_cart.egg-info
+writing escape_from_cart.egg-info/PKG-INFO
+writing dependency_links to escape_from_cart.egg-info/dependency_links.txt
+writing entry points to escape_from_cart.egg-info/entry_points.txt
+writing requirements to escape_from_cart.egg-info/requires.txt
+writing top-level names to escape_from_cart.egg-info/top_level.txt
+writing manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+reading manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+writing manifest file 'escape_from_cart.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape-from-cart.egg-link (link to .)
+
+Installed /home/oh/slam_ws/build/escape_from_cart
+running symlink_data
+creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index
+creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index
+creating /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index/packages
+symbolically linking /home/oh/slam_ws/build/escape_from_cart/resource/escape_from_cart -> /home/oh/slam_ws/install/escape_from_cart/share/ament_index/resource_index/packages
+symbolically linking /home/oh/slam_ws/build/escape_from_cart/package.xml -> /home/oh/slam_ws/install/escape_from_cart/share/escape_from_cart

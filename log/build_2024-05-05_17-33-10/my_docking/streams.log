@@ -1,0 +1,21 @@
+[1.382s] Invoking command in '/home/oh/slam_ws/build/my_docking': PYTHONPATH=/home/oh/slam_ws/build/my_docking/prefix_override:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_docking/build --no-deps symlink_data --force
+[1.986s] running develop
+[1.987s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.987s]   warnings.warn(
+[2.362s] running egg_info
+[2.362s] writing my_docking.egg-info/PKG-INFO
+[2.363s] writing dependency_links to my_docking.egg-info/dependency_links.txt
+[2.363s] writing entry points to my_docking.egg-info/entry_points.txt
+[2.363s] writing requirements to my_docking.egg-info/requires.txt
+[2.363s] writing top-level names to my_docking.egg-info/top_level.txt
+[2.367s] reading manifest file 'my_docking.egg-info/SOURCES.txt'
+[2.368s] writing manifest file 'my_docking.egg-info/SOURCES.txt'
+[2.371s] running build_ext
+[2.371s] Creating /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my-docking.egg-link (link to .)
+[2.373s] Installing docking script to /home/oh/slam_ws/install/my_docking/lib/my_docking
+[2.373s] 
+[2.373s] Installed /home/oh/slam_ws/build/my_docking
+[2.373s] running symlink_data
+[2.373s] symbolically linking /home/oh/slam_ws/build/my_docking/resource/my_docking -> /home/oh/slam_ws/install/my_docking/share/ament_index/resource_index/packages
+[2.374s] symbolically linking /home/oh/slam_ws/build/my_docking/package.xml -> /home/oh/slam_ws/install/my_docking/share/my_docking
+[2.430s] Invoked command in '/home/oh/slam_ws/build/my_docking' returned '0': PYTHONPATH=/home/oh/slam_ws/build/my_docking/prefix_override:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_docking/build --no-deps symlink_data --force

@@ -1,0 +1,160 @@
+[0.112s] Invoking command in '/home/oh/slam_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/oh/slam_ws/build/ydlidar_sdk -- -j8 -l8
+[1.124s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_sdk[0m
+[1.124s] [ 45%] Built target ydlidar_sdk
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target gs_test[0m
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target et_test[0m
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target scl_test[0m
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target tmini_test[0m
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target sdm_test[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target tof_test[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target tri_and_gs_test[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target tri_restart[0m
+[1.257s] [ 50%] Built target et_test
+[1.263s] [ 55%] Built target gs_test
+[1.289s] [ 60%] Built target scl_test
+[1.314s] [ 65%] Built target sdm_test
+[1.346s] [ 70%] Built target tof_test
+[1.377s] [ 75%] Built target tmini_test
+[1.377s] [ 80%] Built target tri_restart
+[1.378s] [ 85%] Built target tri_and_gs_test
+[1.404s] [35m[1mConsolidate compiler generated dependencies of target tri_test[0m
+[1.436s] [35m[1mConsolidate compiler generated dependencies of target lidar_test[0m
+[1.444s] [35m[1mConsolidate compiler generated dependencies of target lidar_c_api_test[0m
+[1.583s] [ 90%] Built target tri_test
+[1.585s] [ 95%] Built target lidar_c_api_test
+[1.595s] [100%] Built target lidar_test
+[1.674s] Invoked command in '/home/oh/slam_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/oh/slam_ws/build/ydlidar_sdk -- -j8 -l8
+[3.403s] Invoking command in '/home/oh/slam_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/oh/slam_ws/build/ydlidar_sdk
+[3.461s] -- Install configuration: ""
+[3.467s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[3.468s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/locker.h
+[3.468s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/thread.h
+[3.468s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/timer.h
+[3.468s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[3.469s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/utils.h
+[3.469s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[3.469s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[3.470s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[3.470s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[3.471s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[3.471s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[3.480s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[3.481s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[3.482s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/math/angles.h
+[3.482s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[3.483s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[3.483s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[3.484s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[3.485s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/serial/common.h
+[3.490s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[3.499s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[3.500s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[3.500s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[3.501s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[3.502s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[3.502s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h
+[3.502s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+[3.503s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[3.523s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[3.523s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[3.524s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[3.524s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+[3.527s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[3.527s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[3.546s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[3.557s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[3.558s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[3.560s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[3.563s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[3.566s] -- Up-to-date: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[3.567s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[3.567s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[3.568s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[3.568s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[3.568s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[3.568s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[3.568s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[3.569s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[3.569s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[3.569s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[3.569s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[3.569s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[3.570s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[3.570s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[3.570s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[3.570s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[3.570s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[3.571s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[3.571s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[3.579s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[3.586s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[3.587s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[3.587s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[3.588s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[3.588s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[3.589s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[3.589s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[3.589s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[3.591s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[3.591s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[3.592s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[3.593s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[3.603s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[3.606s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[3.607s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[3.607s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[3.607s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[3.608s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[3.608s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[3.610s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[3.611s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[3.611s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[3.611s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[3.611s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[3.627s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[3.632s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[3.632s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[3.633s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[3.640s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[3.641s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[3.641s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[3.644s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[3.644s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[3.644s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[3.645s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[3.647s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[3.648s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[3.648s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[3.648s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[3.648s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[3.649s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[3.649s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[3.654s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[3.655s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[3.655s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[3.655s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[3.656s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[3.656s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[3.656s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[3.656s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[3.657s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[3.657s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[3.657s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[3.663s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[3.663s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[3.668s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[3.668s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[3.669s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[3.669s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[3.669s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/startup/initenv.sh
+[3.694s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/et_test
+[3.696s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/gs_test
+[3.696s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/scl_test
+[3.705s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/sdm_test
+[3.707s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/tmini_test
+[3.717s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/tof_test
+[3.731s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[3.731s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/tri_restart
+[3.732s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/tri_test
+[3.745s] -- Installing: /home/oh/slam_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[3.775s] Invoked command in '/home/oh/slam_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/oh/slam_ws/build/ydlidar_sdk

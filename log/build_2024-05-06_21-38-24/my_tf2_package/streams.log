@@ -1,0 +1,21 @@
+[0.414s] Invoking command in '/home/oh/slam_ws/build/my_tf2_package': PYTHONPATH=/home/oh/slam_ws/build/my_tf2_package/prefix_override:/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_tf2_package/build --no-deps symlink_data --force
+[0.599s] running develop
+[0.599s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.599s]   warnings.warn(
+[0.719s] running egg_info
+[0.719s] writing my_tf2_package.egg-info/PKG-INFO
+[0.719s] writing dependency_links to my_tf2_package.egg-info/dependency_links.txt
+[0.719s] writing entry points to my_tf2_package.egg-info/entry_points.txt
+[0.719s] writing requirements to my_tf2_package.egg-info/requires.txt
+[0.719s] writing top-level names to my_tf2_package.egg-info/top_level.txt
+[0.721s] reading manifest file 'my_tf2_package.egg-info/SOURCES.txt'
+[0.721s] writing manifest file 'my_tf2_package.egg-info/SOURCES.txt'
+[0.722s] running build_ext
+[0.722s] Creating /home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages/my-tf2-package.egg-link (link to .)
+[0.723s] Installing my_static_cart_tf2_broadcaster script to /home/oh/slam_ws/install/my_tf2_package/lib/my_tf2_package
+[0.723s] 
+[0.723s] Installed /home/oh/slam_ws/build/my_tf2_package
+[0.723s] running symlink_data
+[0.723s] symbolically linking /home/oh/slam_ws/build/my_tf2_package/resource/my_tf2_package -> /home/oh/slam_ws/install/my_tf2_package/share/ament_index/resource_index/packages
+[0.723s] symbolically linking /home/oh/slam_ws/build/my_tf2_package/package.xml -> /home/oh/slam_ws/install/my_tf2_package/share/my_tf2_package
+[0.745s] Invoked command in '/home/oh/slam_ws/build/my_tf2_package' returned '0': PYTHONPATH=/home/oh/slam_ws/build/my_tf2_package/prefix_override:/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_tf2_package/build --no-deps symlink_data --force

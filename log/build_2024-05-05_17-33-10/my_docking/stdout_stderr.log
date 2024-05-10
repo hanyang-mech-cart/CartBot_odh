@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing my_docking.egg-info/PKG-INFO
+writing dependency_links to my_docking.egg-info/dependency_links.txt
+writing entry points to my_docking.egg-info/entry_points.txt
+writing requirements to my_docking.egg-info/requires.txt
+writing top-level names to my_docking.egg-info/top_level.txt
+reading manifest file 'my_docking.egg-info/SOURCES.txt'
+writing manifest file 'my_docking.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my-docking.egg-link (link to .)
+Installing docking script to /home/oh/slam_ws/install/my_docking/lib/my_docking
+
+Installed /home/oh/slam_ws/build/my_docking
+running symlink_data
+symbolically linking /home/oh/slam_ws/build/my_docking/resource/my_docking -> /home/oh/slam_ws/install/my_docking/share/ament_index/resource_index/packages
+symbolically linking /home/oh/slam_ws/build/my_docking/package.xml -> /home/oh/slam_ws/install/my_docking/share/my_docking

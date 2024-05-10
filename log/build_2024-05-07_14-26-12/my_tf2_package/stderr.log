@@ -1,0 +1,2 @@
+/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages/my_tf2_package/my_static_cart_tf2_broadcaster.py:68: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  ['cart_base_0', 'cart_base_0_target', 1.0, 0, 0, 0,0,0]

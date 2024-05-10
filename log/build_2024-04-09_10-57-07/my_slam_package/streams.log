@@ -1,0 +1,27 @@
+[0.028s] Invoking command in '/home/oh/slam_ws/build/my_slam_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/my_slam_package -- -j8 -l8
+[0.259s] Invoked command in '/home/oh/slam_ws/build/my_slam_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/my_slam_package -- -j8 -l8
+[0.462s] Invoking command in '/home/oh/slam_ws/build/my_slam_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/my_slam_package
+[0.481s] -- Install configuration: ""
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/launch
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/launch/my_robot.launch.py
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/launch/localization_without_grid.py
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/urdf
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/urdf/my_robot.urdf
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/lua
+[0.481s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/lua/my_robot.lua
+[0.482s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/ament_index/resource_index/package_run_dependencies/my_slam_package
+[0.482s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/ament_index/resource_index/parent_prefix_path/my_slam_package
+[0.482s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/environment/ament_prefix_path.sh
+[0.482s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/environment/ament_prefix_path.dsv
+[0.482s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/environment/path.sh
+[0.483s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/environment/path.dsv
+[0.483s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/local_setup.bash
+[0.483s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/local_setup.sh
+[0.483s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/local_setup.zsh
+[0.483s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/local_setup.dsv
+[0.483s] -- Installing: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/package.dsv
+[0.484s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/ament_index/resource_index/packages/my_slam_package
+[0.484s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/cmake/my_slam_packageConfig.cmake
+[0.484s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/cmake/my_slam_packageConfig-version.cmake
+[0.484s] -- Up-to-date: /home/oh/slam_ws/install/my_slam_package/share/my_slam_package/package.xml
+[0.502s] Invoked command in '/home/oh/slam_ws/build/my_slam_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/my_slam_package

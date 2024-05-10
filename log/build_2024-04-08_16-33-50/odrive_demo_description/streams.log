@@ -1,0 +1,43 @@
+[0.246s] Invoking command in '/home/oh/slam_ws/build/odrive_demo_description': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/odrive_ros2_control/odrive_demo_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/odrive_demo_description
+[0.301s] -- The C compiler identification is GNU 11.4.0
+[0.365s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.444s] -- Detecting C compile features
+[0.444s] -- Detecting C compile features - done
+[0.448s] -- Detecting CXX compiler ABI info
+[0.533s] -- Detecting CXX compiler ABI info - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.543s] -- Detecting CXX compile features
+[0.544s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.711s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.889s] -- Configuring done
+[0.892s] -- Generating done
+[0.894s] -- Build files have been written to: /home/oh/slam_ws/build/odrive_demo_description
+[0.900s] Invoked command in '/home/oh/slam_ws/build/odrive_demo_description' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/odrive_ros2_control/odrive_demo_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/odrive_demo_description
+[0.900s] Invoking command in '/home/oh/slam_ws/build/odrive_demo_description': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/odrive_demo_description -- -j8 -l8
+[1.451s] Invoked command in '/home/oh/slam_ws/build/odrive_demo_description' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/odrive_demo_description -- -j8 -l8
+[1.471s] Invoking command in '/home/oh/slam_ws/build/odrive_demo_description': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/odrive_demo_description
+[1.607s] -- Install configuration: ""
+[1.607s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/urdf
+[1.607s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_diffbot.urdf.xacro
+[1.607s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.ros2_control.xacro
+[1.607s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.urdf.xacro
+[1.607s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/ament_index/resource_index/package_run_dependencies/odrive_demo_description
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/ament_index/resource_index/parent_prefix_path/odrive_demo_description
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.sh
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.dsv
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.sh
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.dsv
+[1.608s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.bash
+[1.615s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.sh
+[1.615s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.zsh
+[1.615s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.dsv
+[1.615s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv
+[1.615s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/ament_index/resource_index/packages/odrive_demo_description
+[1.616s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig.cmake
+[1.616s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig-version.cmake
+[1.616s] -- Installing: /home/oh/slam_ws/install/odrive_demo_description/share/odrive_demo_description/package.xml
+[1.627s] Invoked command in '/home/oh/slam_ws/build/odrive_demo_description' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/odrive_demo_description

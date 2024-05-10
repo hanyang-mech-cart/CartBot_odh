@@ -1,0 +1,21 @@
+[0.414s] Invoking command in '/home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg': PYTHONPATH=/home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/prefix_override:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/build --no-deps symlink_data --force
+[0.600s] running develop
+[0.601s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.601s]   warnings.warn(
+[0.722s] running egg_info
+[0.722s] writing my_aruco_to_goal_pose_pkg.egg-info/PKG-INFO
+[0.722s] writing dependency_links to my_aruco_to_goal_pose_pkg.egg-info/dependency_links.txt
+[0.722s] writing entry points to my_aruco_to_goal_pose_pkg.egg-info/entry_points.txt
+[0.722s] writing requirements to my_aruco_to_goal_pose_pkg.egg-info/requires.txt
+[0.722s] writing top-level names to my_aruco_to_goal_pose_pkg.egg-info/top_level.txt
+[0.724s] reading manifest file 'my_aruco_to_goal_pose_pkg.egg-info/SOURCES.txt'
+[0.724s] writing manifest file 'my_aruco_to_goal_pose_pkg.egg-info/SOURCES.txt'
+[0.725s] running build_ext
+[0.725s] Creating /home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/python3.10/site-packages/my-aruco-to-goal-pose-pkg.egg-link (link to .)
+[0.726s] Installing aruco_sub_goal_pose_pub script to /home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/my_aruco_to_goal_pose_pkg
+[0.726s] 
+[0.726s] Installed /home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg
+[0.726s] running symlink_data
+[0.726s] symbolically linking /home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/resource/my_aruco_to_goal_pose_pkg -> /home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/share/ament_index/resource_index/packages
+[0.726s] symbolically linking /home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/package.xml -> /home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/share/my_aruco_to_goal_pose_pkg
+[0.748s] Invoked command in '/home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg' returned '0': PYTHONPATH=/home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/prefix_override:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/my_aruco_to_goal_pose_pkg/build --no-deps symlink_data --force

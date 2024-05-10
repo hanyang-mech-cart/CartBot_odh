@@ -1,0 +1,85 @@
+[0.027s] Invoking command in '/home/oh/slam_ws/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/ros2_control_demos/example_4 -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/ros2_control_demo_example_4
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting CXX compiler ABI info
+[0.203s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.216s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.511s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.564s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.571s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.585s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.584s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.588s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.641s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.759s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.763s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.788s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.801s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.812s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.855s] -- Looking for C++ include pthread.h
+[1.975s] -- Looking for C++ include pthread.h - found
+[1.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.276s] -- Found Threads: TRUE  
+[2.575s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.535s] -- Configuring done
+[3.563s] -- Generating done
+[3.565s] -- Build files have been written to: /home/oh/slam_ws/build/ros2_control_demo_example_4
+[3.576s] Invoked command in '/home/oh/slam_ws/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/ros2_control_demos/example_4 -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/ros2_control_demo_example_4
+[3.583s] Invoking command in '/home/oh/slam_ws/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/ros2_control_demo_example_4 -- -j8 -l8
+[4.529s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_4.dir/hardware/rrbot_system_with_sensor.cpp.o[0m
+[9.031s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_4.so[0m
+[9.463s] [100%] Built target ros2_control_demo_example_4
+[9.481s] Invoked command in '/home/oh/slam_ws/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/build/ros2_control_demo_example_4 -- -j8 -l8
+[9.751s] Invoking command in '/home/oh/slam_ws/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/ros2_control_demo_example_4
+[9.765s] -- Install configuration: ""
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/ros2_control_demo_example_4.xml
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4/ros2_control_demo_example_4
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4/ros2_control_demo_example_4/rrbot_system_with_sensor.hpp
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4/ros2_control_demo_example_4/visibility_control.h
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/view_robot.launch.py
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/ros2_control
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[9.765s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/urdf
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/urdf/rrbot_system_with_sensor.urdf.xacro
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/rviz
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/rviz/rrbot.rviz
+[9.766s] -- Up-to-date: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/rrbot_system_with_sensor.launch.py
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/test_forward_position_controller.launch.py
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/config
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/config/rrbot_with_sensor_controllers.yaml
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/config/rrbot_forward_position_publisher.yaml
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/lib/libros2_control_demo_example_4.so
+[9.766s] -- Set runtime path of "/home/oh/slam_ws/install/ros2_control_demo_example_4/lib/libros2_control_demo_example_4.so" to ""
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/library_path.sh
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/library_path.dsv
+[9.766s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_4
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_4
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/ament_prefix_path.sh
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/ament_prefix_path.dsv
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/path.sh
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/path.dsv
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.bash
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.sh
+[9.767s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.zsh
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.dsv
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.dsv
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/packages/ros2_control_demo_example_4
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_4
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export-noconfig.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ament_cmake_export_targets-extras.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config-version.cmake
+[9.768s] -- Installing: /home/oh/slam_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.xml
+[9.778s] Invoked command in '/home/oh/slam_ws/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/oh/slam_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/build/ros2_control_demo_example_4

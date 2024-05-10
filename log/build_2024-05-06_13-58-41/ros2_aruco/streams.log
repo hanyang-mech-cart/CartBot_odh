@@ -1,0 +1,24 @@
+[1.220s] Invoking command in '/home/oh/slam_ws/build/ros2_aruco': PYTHONPATH=/home/oh/slam_ws/build/ros2_aruco/prefix_override:/home/oh/slam_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/ros2_aruco/build --no-deps symlink_data --force
+[1.739s] running develop
+[1.740s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.740s]   warnings.warn(
+[2.070s] running egg_info
+[2.070s] writing ros2_aruco.egg-info/PKG-INFO
+[2.071s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[2.071s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[2.072s] writing requirements to ros2_aruco.egg-info/requires.txt
+[2.072s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[2.076s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.077s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.080s] running build_ext
+[2.080s] Creating /home/oh/slam_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[2.082s] Installing aruco_generate_marker script to /home/oh/slam_ws/install/ros2_aruco/lib/ros2_aruco
+[2.082s] Installing aruco_node script to /home/oh/slam_ws/install/ros2_aruco/lib/ros2_aruco
+[2.083s] 
+[2.083s] Installed /home/oh/slam_ws/build/ros2_aruco
+[2.083s] running symlink_data
+[2.084s] symbolically linking /home/oh/slam_ws/build/ros2_aruco/resource/ros2_aruco -> /home/oh/slam_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.084s] symbolically linking /home/oh/slam_ws/build/ros2_aruco/package.xml -> /home/oh/slam_ws/install/ros2_aruco/share/ros2_aruco
+[2.084s] symbolically linking /home/oh/slam_ws/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/oh/slam_ws/install/ros2_aruco/share/ros2_aruco/launch
+[2.084s] symbolically linking /home/oh/slam_ws/build/ros2_aruco/config/aruco_parameters.yaml -> /home/oh/slam_ws/install/ros2_aruco/share/ros2_aruco/config
+[2.139s] Invoked command in '/home/oh/slam_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/oh/slam_ws/build/ros2_aruco/prefix_override:/home/oh/slam_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oh/slam_ws/build/ros2_aruco/build --no-deps symlink_data --force

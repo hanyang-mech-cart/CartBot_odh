@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/escape_from_cart/escape_from_cart.egg-info/PKG-INFO
+writing dependency_links to ../../build/escape_from_cart/escape_from_cart.egg-info/dependency_links.txt
+writing entry points to ../../build/escape_from_cart/escape_from_cart.egg-info/entry_points.txt
+writing requirements to ../../build/escape_from_cart/escape_from_cart.egg-info/requires.txt
+writing top-level names to ../../build/escape_from_cart/escape_from_cart.egg-info/top_level.txt
+reading manifest file '../../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+writing manifest file '../../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+running build
+running build_py
+copying escape_from_cart/escape_accel.py -> /home/oh/slam_ws/build/escape_from_cart/build/lib/escape_from_cart
+running install
+running install_lib
+copying /home/oh/slam_ws/build/escape_from_cart/build/lib/escape_from_cart/escape_accel.py -> /home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+byte-compiling /home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py to escape_accel.cpython-310.pyc
+running install_data
+running install_egg_info
+  File "/home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py", line 3
+    from rclpy
+              ^
+SyntaxError: invalid syntax
+
+removing '/home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/escape_from_cart/escape_from_cart.egg-info to /home/oh/slam_ws/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/oh/slam_ws/build/escape_from_cart/install.log'

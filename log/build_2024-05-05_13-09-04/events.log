@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000266] (-) JobUnselected: {'identifier': 'behaviortree_cpp'}
+[0.000335] (-) JobUnselected: {'identifier': 'my_aruco_to_goal_pose_pkg'}
+[0.000369] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.000398] (-) JobUnselected: {'identifier': 'my_docking'}
+[0.000425] (-) JobUnselected: {'identifier': 'my_slam_package'}
+[0.000453] (-) JobUnselected: {'identifier': 'my_tf2_package'}
+[0.000492] (-) JobUnselected: {'identifier': 'my_tf_package'}
+[0.000647] (-) JobUnselected: {'identifier': 'odrive_demo_bringup'}
+[0.000674] (-) JobUnselected: {'identifier': 'odrive_demo_description'}
+[0.000700] (-) JobUnselected: {'identifier': 'odrive_hardware_interface'}
+[0.000726] (-) JobUnselected: {'identifier': 'odrive_ros2_control'}
+[0.000752] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000779] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000805] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000832] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000858] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000885] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000912] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.000938] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.000966] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.000993] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.001019] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.001046] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.001072] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.001099] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.001125] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.001151] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.001177] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.001204] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.001230] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.001257] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.001284] (-) JobUnselected: {'identifier': 'tb3_autonomy'}
+[0.001310] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.001336] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.001368] (my_action_interface) JobQueued: {'identifier': 'my_action_interface', 'dependencies': OrderedDict()}
+[0.001403] (my_action_interface) JobStarted: {'identifier': 'my_action_interface'}
+[0.014512] (my_action_interface) JobProgress: {'identifier': 'my_action_interface', 'progress': 'cmake'}
+[0.014859] (my_action_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/oh/slam_ws/src/my_action_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/my_action_interface'], 'cwd': '/home/oh/slam_ws/build/my_action_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'oh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/oh/slam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1734'), ('SYSTEMD_EXEC_PID', '1887'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:37979'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/oh/anaconda3/condabin:/opt/ros/humble/bin:/home/oh/.cargo/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-950XDC-951XDC-950XDX:@/tmp/.ICE-unix/1864,unix/oh-950XDC-951XDC-950XDX:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '30134fbec15944c697b01940ef3efebe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AD47M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/oh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:280ebc4a-1cb9-43f0-b546-7d41a3c45d3e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/slam_ws/build/my_action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/oh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098600] (-) TimerEvent: {}
+[0.143894] (my_action_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198807] (-) TimerEvent: {}
+[0.266947] (my_action_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.282462] (my_action_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298999] (-) TimerEvent: {}
+[0.394604] (my_action_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399177] (-) TimerEvent: {}
+[0.408812] (my_action_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.409459] (my_action_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.410526] (my_action_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.416491] (my_action_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499411] (-) TimerEvent: {}
+[0.546671] (my_action_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.561315] (my_action_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.561886] (my_action_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.562764] (my_action_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.571116] (my_action_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599598] (-) TimerEvent: {}
+[0.700109] (-) TimerEvent: {}
+[0.800690] (-) TimerEvent: {}
+[0.837087] (my_action_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900891] (-) TimerEvent: {}
+[0.951187] (my_action_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.001101] (-) TimerEvent: {}
+[1.008910] (my_action_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.015912] (my_action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.029994] (my_action_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.101335] (-) TimerEvent: {}
+[1.115807] (my_action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201516] (-) TimerEvent: {}
+[1.301983] (-) TimerEvent: {}
+[1.402493] (-) TimerEvent: {}
+[1.503069] (-) TimerEvent: {}
+[1.603629] (-) TimerEvent: {}
+[1.704199] (-) TimerEvent: {}
+[1.804716] (-) TimerEvent: {}
+[1.820273] (my_action_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.904906] (-) TimerEvent: {}
+[2.005320] (-) TimerEvent: {}
+[2.105878] (-) TimerEvent: {}
+[2.165793] (my_action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.206059] (-) TimerEvent: {}
+[2.306520] (-) TimerEvent: {}
+[2.406979] (-) TimerEvent: {}
+[2.507607] (-) TimerEvent: {}
+[2.604919] (my_action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.607771] (-) TimerEvent: {}
+[2.645184] (my_action_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.648770] (my_action_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.697978] (my_action_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.698263] (my_action_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.698379] (my_action_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.698493] (my_action_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.707975] (-) TimerEvent: {}
+[2.737442] (my_action_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.808243] (-) TimerEvent: {}
+[2.811959] (my_action_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.853883] (my_action_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.855678] (my_action_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.861397] (my_action_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.908447] (-) TimerEvent: {}
+[2.917657] (my_action_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.921361] (my_action_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/oh/slam_ws/build/my_action_interface\n'}
+[2.931426] (my_action_interface) CommandEnded: {'returncode': 0}
+[2.932595] (my_action_interface) JobProgress: {'identifier': 'my_action_interface', 'progress': 'build'}
+[2.933908] (my_action_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/oh/slam_ws/build/my_action_interface', '--', '-j8', '-l8'], 'cwd': '/home/oh/slam_ws/build/my_action_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'oh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/oh/slam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1734'), ('SYSTEMD_EXEC_PID', '1887'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:37979'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/oh/anaconda3/condabin:/opt/ros/humble/bin:/home/oh/.cargo/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-950XDC-951XDC-950XDX:@/tmp/.ICE-unix/1864,unix/oh-950XDC-951XDC-950XDX:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '30134fbec15944c697b01940ef3efebe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AD47M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/oh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:280ebc4a-1cb9-43f0-b546-7d41a3c45d3e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/slam_ws/build/my_action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/oh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.996868] (my_action_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.008589] (-) TimerEvent: {}
+[3.011492] (my_action_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.023844] (my_action_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_my_action_interface\n'}
+[3.108843] (-) TimerEvent: {}
+[3.209407] (-) TimerEvent: {}
+[3.309891] (-) TimerEvent: {}
+[3.410401] (-) TimerEvent: {}
+[3.478973] (my_action_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.480000] (my_action_interface) StdoutLine: {'line': b'creating my_action_interface.egg-info\n'}
+[3.481104] (my_action_interface) StdoutLine: {'line': b'writing my_action_interface.egg-info/PKG-INFO\n'}
+[3.481484] (my_action_interface) StdoutLine: {'line': b'writing dependency_links to my_action_interface.egg-info/dependency_links.txt\n'}
+[3.481722] (my_action_interface) StdoutLine: {'line': b'writing top-level names to my_action_interface.egg-info/top_level.txt\n'}
+[3.482026] (my_action_interface) StdoutLine: {'line': b"writing manifest file 'my_action_interface.egg-info/SOURCES.txt'\n"}
+[3.486019] (my_action_interface) StdoutLine: {'line': b"reading manifest file 'my_action_interface.egg-info/SOURCES.txt'\n"}
+[3.486925] (my_action_interface) StdoutLine: {'line': b"writing manifest file 'my_action_interface.egg-info/SOURCES.txt'\n"}
+[3.510610] (-) TimerEvent: {}
+[3.530403] (my_action_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_action_interface_egg\n'}
+[3.610798] (-) TimerEvent: {}
+[3.711318] (-) TimerEvent: {}
+[3.811829] (-) TimerEvent: {}
+[3.912365] (-) TimerEvent: {}
+[4.012759] (-) TimerEvent: {}
+[4.113159] (-) TimerEvent: {}
+[4.213611] (-) TimerEvent: {}
+[4.249067] (my_action_interface) StdoutLine: {'line': b'[  5%] Built target my_action_interface__cpp\n'}
+[4.253063] (my_action_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/open__functions.c.o\x1b[0m\n'}
+[4.253510] (my_action_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/docking_two__functions.c.o\x1b[0m\n'}
+[4.265994] (my_action_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.266467] (my_action_interface) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.268546] (my_action_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.313745] (-) TimerEvent: {}
+[4.414287] (-) TimerEvent: {}
+[4.515045] (-) TimerEvent: {}
+[4.615554] (-) TimerEvent: {}
+[4.619705] (my_action_interface) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_action_interface__rosidl_generator_c.so\x1b[0m\n'}
+[4.679389] (my_action_interface) StdoutLine: {'line': b'[ 20%] Built target my_action_interface__rosidl_generator_c\n'}
+[4.694727] (my_action_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.699719] (my_action_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.700073] (my_action_interface) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.715685] (-) TimerEvent: {}
+[4.816184] (-) TimerEvent: {}
+[4.916738] (-) TimerEvent: {}
+[5.011792] (my_action_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/docking_two__type_support.cpp.o\x1b[0m\n'}
+[5.012283] (my_action_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/open__type_support.cpp.o\x1b[0m\n'}
+[5.016886] (-) TimerEvent: {}
+[5.117559] (-) TimerEvent: {}
+[5.218066] (-) TimerEvent: {}
+[5.318777] (-) TimerEvent: {}
+[5.419351] (-) TimerEvent: {}
+[5.519913] (-) TimerEvent: {}
+[5.620537] (-) TimerEvent: {}
+[5.682747] (my_action_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/docking_two__type_support.cpp.o\x1b[0m\n'}
+[5.683624] (my_action_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/open__type_support.cpp.o\x1b[0m\n'}
+[5.720646] (-) TimerEvent: {}
+[5.821221] (-) TimerEvent: {}
+[5.921797] (-) TimerEvent: {}
+[5.934274] (my_action_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/open__type_support.cpp.o\x1b[0m\n'}
+[5.961062] (my_action_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/docking_two__type_support.cpp.o\x1b[0m\n'}
+[5.983821] (my_action_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/open__type_support.cpp.o\x1b[0m\n'}
+[6.021945] (-) TimerEvent: {}
+[6.091484] (my_action_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/docking_two__type_support.cpp.o\x1b[0m\n'}
+[6.092646] (my_action_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.122089] (-) TimerEvent: {}
+[6.201048] (my_action_interface) StdoutLine: {'line': b'[ 51%] Built target my_action_interface__rosidl_typesupport_c\n'}
+[6.222260] (-) TimerEvent: {}
+[6.286786] (my_action_interface) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.322406] (-) TimerEvent: {}
+[6.394402] (my_action_interface) StdoutLine: {'line': b'[ 53%] Built target my_action_interface__rosidl_typesupport_cpp\n'}
+[6.422579] (-) TimerEvent: {}
+[6.445966] (my_action_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/open__type_support.c.o\x1b[0m\n'}
+[6.446897] (my_action_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/docking_two__type_support.c.o\x1b[0m\n'}
+[6.522744] (-) TimerEvent: {}
+[6.583559] (my_action_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmy_action_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.622941] (-) TimerEvent: {}
+[6.643461] (my_action_interface) StdoutLine: {'line': b'[ 61%] Built target my_action_interface__rosidl_typesupport_introspection_c\n'}
+[6.698461] (my_action_interface) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/open__type_support_c.cpp.o\x1b[0m\n'}
+[6.704523] (my_action_interface) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/docking_two__type_support_c.cpp.o\x1b[0m\n'}
+[6.723119] (-) TimerEvent: {}
+[6.823903] (-) TimerEvent: {}
+[6.924548] (-) TimerEvent: {}
+[7.025158] (-) TimerEvent: {}
+[7.125881] (-) TimerEvent: {}
+[7.226460] (-) TimerEvent: {}
+[7.327080] (-) TimerEvent: {}
+[7.427662] (-) TimerEvent: {}
+[7.528227] (-) TimerEvent: {}
+[7.589287] (my_action_interface) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.628467] (-) TimerEvent: {}
+[7.632192] (my_action_interface) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.728629] (-) TimerEvent: {}
+[7.729092] (my_action_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.729574] (my_action_interface) StdoutLine: {'line': b'[ 74%] Built target my_action_interface__rosidl_typesupport_introspection_cpp\n'}
+[7.776910] (my_action_interface) StdoutLine: {'line': b'[ 74%] Built target my_action_interface__rosidl_typesupport_fastrtps_c\n'}
+[7.828769] (-) TimerEvent: {}
+[7.870080] (my_action_interface) StdoutLine: {'line': b'[ 74%] Built target my_action_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[7.900999] (my_action_interface) StdoutLine: {'line': b'[ 74%] Built target my_action_interface\n'}
+[7.928919] (-) TimerEvent: {}
+[7.931506] (my_action_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.029050] (-) TimerEvent: {}
+[8.129452] (-) TimerEvent: {}
+[8.229892] (-) TimerEvent: {}
+[8.330383] (-) TimerEvent: {}
+[8.430774] (-) TimerEvent: {}
+[8.531187] (-) TimerEvent: {}
+[8.631599] (-) TimerEvent: {}
+[8.732008] (-) TimerEvent: {}
+[8.832379] (-) TimerEvent: {}
+[8.932757] (-) TimerEvent: {}
+[9.033162] (-) TimerEvent: {}
+[9.133576] (-) TimerEvent: {}
+[9.233986] (-) TimerEvent: {}
+[9.334357] (-) TimerEvent: {}
+[9.434752] (-) TimerEvent: {}
+[9.535153] (-) TimerEvent: {}
+[9.635600] (-) TimerEvent: {}
+[9.735977] (-) TimerEvent: {}
+[9.836529] (-) TimerEvent: {}
+[9.936935] (-) TimerEvent: {}
+[10.037327] (-) TimerEvent: {}
+[10.137787] (-) TimerEvent: {}
+[10.157307] (my_action_interface) StdoutLine: {'line': b'[ 76%] Built target my_action_interface__py\n'}
+[10.187865] (my_action_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_open_s.c.o\x1b[0m\n'}
+[10.188226] (my_action_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_docking_two_s.c.o\x1b[0m\n'}
+[10.237993] (-) TimerEvent: {}
+[10.338496] (-) TimerEvent: {}
+[10.439018] (-) TimerEvent: {}
+[10.465529] (my_action_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_action_interface/libmy_action_interface__rosidl_generator_py.so\x1b[0m\n'}
+[10.533847] (my_action_interface) StdoutLine: {'line': b'[ 84%] Built target my_action_interface__rosidl_generator_py\n'}
+[10.539122] (-) TimerEvent: {}
+[10.564082] (my_action_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.564527] (my_action_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.564742] (my_action_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.639366] (-) TimerEvent: {}
+[10.739940] (-) TimerEvent: {}
+[10.812336] (my_action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.812656] (my_action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.812782] (my_action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.840122] (-) TimerEvent: {}
+[10.874791] (my_action_interface) StdoutLine: {'line': b'[100%] Built target my_action_interface__rosidl_typesupport_c__pyext\n'}
+[10.875089] (my_action_interface) StdoutLine: {'line': b'[100%] Built target my_action_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.875217] (my_action_interface) StdoutLine: {'line': b'[100%] Built target my_action_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[10.892283] (my_action_interface) CommandEnded: {'returncode': 0}
+[10.940212] (-) TimerEvent: {}
+[11.005837] (my_action_interface) JobProgress: {'identifier': 'my_action_interface', 'progress': 'install'}
+[11.019758] (my_action_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/oh/slam_ws/build/my_action_interface'], 'cwd': '/home/oh/slam_ws/build/my_action_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'oh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/oh/slam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1734'), ('SYSTEMD_EXEC_PID', '1887'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:37979'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/oh/anaconda3/condabin:/opt/ros/humble/bin:/home/oh/.cargo/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-950XDC-951XDC-950XDX:@/tmp/.ICE-unix/1864,unix/oh-950XDC-951XDC-950XDX:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '30134fbec15944c697b01940ef3efebe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AD47M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/oh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:280ebc4a-1cb9-43f0-b546-7d41a3c45d3e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/slam_ws/build/my_action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/oh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.030985] (my_action_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.032036] (my_action_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.032293] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/ament_index/resource_index/rosidl_interfaces/my_action_interface\n'}
+[11.040353] (-) TimerEvent: {}
+[11.046212] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__functions.h\n'}
+[11.058763] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__struct.h\n'}
+[11.071530] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__type_support.h\n'}
+[11.084669] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__functions.h\n'}
+[11.097949] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__struct.h\n'}
+[11.110781] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__type_support.h\n'}
+[11.123823] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/docking_two.h\n'}
+[11.136622] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/open.h\n'}
+[11.140564] (-) TimerEvent: {}
+[11.150449] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.163212] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/library_path.sh\n'}
+[11.176530] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/library_path.dsv\n'}
+[11.190528] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_fastrtps_c.h\n'}
+[11.203153] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_fastrtps_c.h\n'}
+[11.216310] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.229546] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_introspection_c.h\n'}
+[11.240670] (-) TimerEvent: {}
+[11.242929] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_introspection_c.h\n'}
+[11.255611] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.268966] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__builder.hpp\n'}
+[11.282792] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__struct.hpp\n'}
+[11.295825] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__traits.hpp\n'}
+[11.308378] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__builder.hpp\n'}
+[11.320860] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__struct.hpp\n'}
+[11.333481] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__traits.hpp\n'}
+[11.340789] (-) TimerEvent: {}
+[11.346511] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/docking_two.hpp\n'}
+[11.359390] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/open.hpp\n'}
+[11.372792] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.385992] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.398633] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.411910] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.424543] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.437567] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.sh\n'}
+[11.440889] (-) TimerEvent: {}
+[11.450487] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.dsv\n'}
+[11.463579] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.476412] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.490007] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.503364] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.516943] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/__init__.py\n'}
+[11.529870] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c\n'}
+[11.541033] (-) TimerEvent: {}
+[11.542210] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.555238] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.568079] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/__init__.py\n'}
+[11.581828] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two.py\n'}
+[11.594865] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two_s.c\n'}
+[11.607534] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open.py\n'}
+[11.620244] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open_s.c\n'}
+[11.633163] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/libmy_action_interface__rosidl_generator_py.so\n'}
+[11.641156] (-) TimerEvent: {}
+[11.645530] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.658145] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.670974] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.685104] (my_action_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.685652] (my_action_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.686316] (my_action_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.686767] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/action/Open.idl\n'}
+[11.700492] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/action/DockingTwo.idl\n'}
+[11.713446] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/action/Open.action\n'}
+[11.726123] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/action/DockingTwo.action\n'}
+[11.738756] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/ament_index/resource_index/package_run_dependencies/my_action_interface\n'}
+[11.741284] (-) TimerEvent: {}
+[11.751605] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/ament_index/resource_index/parent_prefix_path/my_action_interface\n'}
+[11.764224] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.sh\n'}
+[11.777904] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.dsv\n'}
+[11.791600] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/path.sh\n'}
+[11.805109] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/environment/path.dsv\n'}
+[11.818024] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/local_setup.bash\n'}
+[11.829949] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/local_setup.sh\n'}
+[11.841436] (-) TimerEvent: {}
+[11.842917] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/local_setup.zsh\n'}
+[11.855623] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/local_setup.dsv\n'}
+[11.868444] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/package.dsv\n'}
+[11.882559] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/ament_index/resource_index/packages/my_action_interface\n'}
+[11.895724] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.908989] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.921765] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.934430] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.941634] (-) TimerEvent: {}
+[11.947318] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.960771] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.973987] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.987232] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig.cmake\n'}
+[12.000819] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig-version.cmake\n'}
+[12.014358] (my_action_interface) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/package.xml\n'}
+[12.027333] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so\n'}
+[12.027767] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so" to ""\n'}
+[12.027969] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[12.028327] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.028570] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so\n'}
+[12.029151] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.029372] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so\n'}
+[12.029683] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so" to ""\n'}
+[12.029979] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.030269] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.030442] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[12.030909] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.031082] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so\n'}
+[12.031439] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[12.041757] (-) TimerEvent: {}
+[12.111100] (my_action_interface) StdoutLine: {'line': b"Listing '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface'...\n"}
+[12.111374] (my_action_interface) StdoutLine: {'line': b"Compiling '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/__init__.py'...\n"}
+[12.111495] (my_action_interface) StdoutLine: {'line': b"Listing '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action'...\n"}
+[12.111598] (my_action_interface) StdoutLine: {'line': b"Compiling '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/__init__.py'...\n"}
+[12.111699] (my_action_interface) StdoutLine: {'line': b"Compiling '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two.py'...\n"}
+[12.111795] (my_action_interface) StdoutLine: {'line': b"Compiling '/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open.py'...\n"}
+[12.119262] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so\n'}
+[12.119697] (my_action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/slam_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so" to ""\n'}
+[12.119872] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport.cmake\n'}
+[12.120016] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.120160] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.120298] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.120455] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.120638] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.120801] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport.cmake\n'}
+[12.120959] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.121133] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cppExport.cmake\n'}
+[12.121292] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.121428] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.121587] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.121739] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.121908] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport.cmake\n'}
+[12.122069] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.122241] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport.cmake\n'}
+[12.122405] (my_action_interface) StdoutLine: {'line': b'-- Installing: /home/oh/slam_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.125632] (my_action_interface) CommandEnded: {'returncode': 0}
+[12.142587] (-) TimerEvent: {}
+[12.242976] (-) TimerEvent: {}
+[12.273519] (my_action_interface) JobEnded: {'identifier': 'my_action_interface', 'rc': 0}
+[12.274650] (-) EventReactorShutdown: {}

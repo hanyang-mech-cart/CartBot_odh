@@ -1,0 +1,887 @@
+[0.052s] Invoking command in '/home/oh/slam_ws/build/ydlidar_sdk': /usr/bin/cmake /home/oh/slam_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/ydlidar_sdk
+[0.063s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.064s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.064s]   CMake.
+[0.064s] 
+[0.064s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.064s]   CMake that the project does not need compatibility with older versions.
+[0.064s] 
+[0.064s] [0m
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.406s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.407s] -- Current platform: Linux
+[0.408s] [0mCMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):
+[0.408s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[0.408s]   of CMake.
+[0.408s] 
+[0.408s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.408s]   policies are deprecated and that a policy should be set to OLD only under
+[0.408s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.409s]   behavior and not rely on setting a policy to OLD.
+[0.409s] 
+[0.409s] [0m
+[0.409s] [0mCMake Deprecation Warning at CMakeLists.txt:53 (cmake_policy):
+[0.409s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[0.409s]   of CMake.
+[0.409s] 
+[0.409s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.409s]   policies are deprecated and that a policy should be set to OLD only under
+[0.409s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.409s]   behavior and not rely on setting a policy to OLD.
+[0.409s] 
+[0.409s] [0m
+[0.409s] [0mCMake Deprecation Warning at CMakeLists.txt:56 (cmake_policy):
+[0.409s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[0.409s]   of CMake.
+[0.409s] 
+[0.409s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.409s]   policies are deprecated and that a policy should be set to OLD only under
+[0.409s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.409s]   behavior and not rely on setting a policy to OLD.
+[0.409s] 
+[0.409s] [0m
+[0.412s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[0.432s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[0.446s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.568s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[0.568s] [0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):
+[0.568s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.568s]   CMake.
+[0.568s] 
+[0.568s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.568s]   CMake that the project does not need compatibility with older versions.
+[0.568s] 
+[0.568s] [0m
+[0.572s] [0mCMake Deprecation Warning at samples/CMakeLists.txt:2 (cmake_minimum_required):
+[0.572s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.572s]   CMake.
+[0.572s] 
+[0.572s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.572s]   CMake that the project does not need compatibility with older versions.
+[0.572s] 
+[0.572s] [0m
+[0.574s] -- build test is ON.....
+[0.574s] [0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[0.574s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[0.574s]   of CMake.
+[0.574s] 
+[0.574s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.574s]   policies are deprecated and that a policy should be set to OLD only under
+[0.574s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.574s]   behavior and not rely on setting a policy to OLD.
+[0.574s] Call Stack (most recent call first):
+[0.574s]   CMakeLists.txt:168 (install_package)
+[0.574s] 
+[0.574s] [0m
+[0.575s] [33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[0.575s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[0.575s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[0.575s]   command to set the policy and suppress this warning.
+[0.576s] 
+[0.576s]   The file
+[0.576s] 
+[0.576s]     /home/oh/slam_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.576s] 
+[0.576s]   was generated by the export() command.  It should not be installed with the
+[0.576s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[0.576s]   cmake-packages(7) manual for more.
+[0.576s] 
+[0.576s] Call Stack (most recent call first):
+[0.576s]   CMakeLists.txt:168 (install_package)
+[0.576s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.576s] [0m
+[0.582s] -- 
+[0.582s] -- +===========================================================================+
+[0.582s] -- |         Resulting configuration for                             |
+[0.582s] -- +===========================================================================+
+[0.582s] --  _________________________ PLATFORM _____________________________
+[0.582s] --  Host                        : Linux5.15.20-051520-genericx86_64
+[0.582s] --  Is the system big endian?   :  No 
+[0.582s] --  Word size (32/64 bit)       : 64
+[0.582s] --  CMake version               : 3.22.1
+[0.582s] --  CMake generator             : Unix Makefiles
+[0.582s] --  CMake build tool            : /usr/bin/gmake
+[0.582s] --  Compiler                    : GNU
+[0.582s] --  Configuration               : 
+[0.582s] -- 
+[0.583s] --  __________________________ OPTIONS _____________________________
+[0.583s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[0.583s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[0.583s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[0.583s] --  Build TEST?  			　　　 : Yes 
+[0.583s] -- 
+[0.583s] --  _________________________ INSTALL _____________________
+[0.583s] --  Install prefix                    : /home/oh/slam_ws/install/ydlidar_sdk
+[0.583s] -- 
+[0.583s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[0.583s] --  Python bindings (pyydlidar)   :  No 
+[0.583s] --   - dep: Swig found?       :  No [Version: ]
+[0.583s] --   - dep: PythonLibs found?  : Yes [Version: 3.10.12]
+[0.583s] -- 
+[0.583s] -- Configuring done
+[0.597s] -- Generating done
+[0.598s] -- Build files have been written to: /home/oh/slam_ws/build/ydlidar_sdk
+[0.604s] Invoked command in '/home/oh/slam_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/oh/slam_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/install/ydlidar_sdk
+[0.604s] Invoking command in '/home/oh/slam_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/oh/slam_ws/build/ydlidar_sdk -- -j8 -l8
+[0.644s] [  7%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[0.644s] [  7%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[0.644s] [  7%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[0.644s] [ 12%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[0.644s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[0.645s] [ 15%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[0.646s] [ 17%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[0.646s] [ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[0.692s] [ 22%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[0.740s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[0.906s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[0.925s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GSLidarDriver.cpp.o[0m
+[0.940s] [ 32%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/SDMLidarDriver.cpp.o[0m
+[0.963s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/core/serial/common.h:45[m[K,
+[0.963s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/core/serial/serial.cpp:12[m[K:
+[0.963s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[0.964s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.964s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[0.964s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[0.964s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[0.964s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[0.964s]       |                                             [32m[K%lX[m[K
+[0.964s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.964s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[0.964s]       |                                             [01;35m[K~^[m[K
+[0.964s]       |                                              [01;35m[K|[m[K
+[0.964s]       |                                              [01;35m[Kunsigned int[m[K
+[0.964s]       |                                             [32m[K%lX[m[K
+[0.964s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[0.964s]       |             [32m[K~~~~~~~[m[K                           
+[0.964s]       |             [32m[K|[m[K
+[0.965s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[0.965s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.965s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[0.965s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[0.965s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[0.965s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[0.965s]       |                                         [32m[K%lX[m[K
+[0.965s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.965s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[0.965s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[0.965s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[0.965s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[0.965s]       |                                                                         [32m[K%lX[m[K
+[0.965s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.965s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[0.966s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[0.966s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[0.966s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[0.966s]       |                                       [32m[K%lX[m[K
+[1.047s] [ 35%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[1.052s] [ 37%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o[0m
+[1.069s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[1.069s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[1.069s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.cpp:29[m[K:
+[1.069s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.069s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.069s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.069s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.069s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.070s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.070s]       |                                             [32m[K%lX[m[K
+[1.070s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.070s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.070s]       |                                             [01;35m[K~^[m[K
+[1.070s]       |                                              [01;35m[K|[m[K
+[1.070s]       |                                              [01;35m[Kunsigned int[m[K
+[1.070s]       |                                             [32m[K%lX[m[K
+[1.070s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.070s]       |             [32m[K~~~~~~~[m[K                           
+[1.070s]       |             [32m[K|[m[K
+[1.070s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.070s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.070s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.070s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.071s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.071s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.071s]       |                                         [32m[K%lX[m[K
+[1.071s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.071s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.071s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.071s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.071s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.071s]       |                                                                         [32m[K%lX[m[K
+[1.071s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.071s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.071s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.071s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.071s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.071s]       |                                       [32m[K%lX[m[K
+[1.159s] [ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[1.164s] [ 42%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/StrongLightFilter.cpp.o[0m
+[1.181s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/ETLidarDriver.h:46[m[K,
+[1.182s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/ETLidarDriver.cpp:32[m[K:
+[1.182s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.182s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.182s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.182s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.182s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.182s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.182s]       |                                             [32m[K%lX[m[K
+[1.183s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.183s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.183s]       |                                             [01;35m[K~^[m[K
+[1.183s]       |                                              [01;35m[K|[m[K
+[1.183s]       |                                              [01;35m[Kunsigned int[m[K
+[1.183s]       |                                             [32m[K%lX[m[K
+[1.183s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.183s]       |             [32m[K~~~~~~~[m[K                           
+[1.184s]       |             [32m[K|[m[K
+[1.184s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.184s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.184s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.184s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.184s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.184s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.184s]       |                                         [32m[K%lX[m[K
+[1.185s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.185s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.185s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.185s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.185s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.185s]       |                                                                         [32m[K%lX[m[K
+[1.186s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.186s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.186s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.186s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.186s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.186s]       |                                       [32m[K%lX[m[K
+[1.265s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[1.265s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[1.265s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/ydlidar_sdk.cpp:27[m[K:
+[1.265s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.265s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.265s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.265s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.265s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.265s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.265s]       |                                             [32m[K%lX[m[K
+[1.265s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.266s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.266s]       |                                             [01;35m[K~^[m[K
+[1.266s]       |                                              [01;35m[K|[m[K
+[1.266s]       |                                              [01;35m[Kunsigned int[m[K
+[1.266s]       |                                             [32m[K%lX[m[K
+[1.266s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.266s]       |             [32m[K~~~~~~~[m[K                           
+[1.266s]       |             [32m[K|[m[K
+[1.266s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.266s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.266s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.266s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.266s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.266s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.266s]       |                                         [32m[K%lX[m[K
+[1.267s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.267s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.267s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.267s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.267s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.267s]       |                                                                         [32m[K%lX[m[K
+[1.267s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.267s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.267s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.267s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.267s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.267s]       |                                       [32m[K%lX[m[K
+[1.302s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/SDMLidarDriver.h:57[m[K,
+[1.302s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/SDMLidarDriver.cpp:35[m[K:
+[1.302s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.302s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.302s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.302s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.302s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.302s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.302s]       |                                             [32m[K%lX[m[K
+[1.302s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.302s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.303s]       |                                             [01;35m[K~^[m[K
+[1.303s]       |                                              [01;35m[K|[m[K
+[1.303s]       |                                              [01;35m[Kunsigned int[m[K
+[1.303s]       |                                             [32m[K%lX[m[K
+[1.303s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.303s]       |             [32m[K~~~~~~~[m[K                           
+[1.303s]       |             [32m[K|[m[K
+[1.303s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.303s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.303s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.303s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.303s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.303s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.303s]       |                                         [32m[K%lX[m[K
+[1.303s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.304s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.304s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.304s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.304s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.304s]       |                                                                         [32m[K%lX[m[K
+[1.304s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.304s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.304s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.304s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.304s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.304s]       |                                       [32m[K%lX[m[K
+[1.355s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.h:57[m[K,
+[1.355s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:35[m[K:
+[1.355s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.355s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.355s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.355s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.355s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.356s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.356s]       |                                             [32m[K%lX[m[K
+[1.356s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.356s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.356s]       |                                             [01;35m[K~^[m[K
+[1.356s]       |                                              [01;35m[K|[m[K
+[1.356s]       |                                              [01;35m[Kunsigned int[m[K
+[1.356s]       |                                             [32m[K%lX[m[K
+[1.356s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.356s]       |             [32m[K~~~~~~~[m[K                           
+[1.356s]       |             [32m[K|[m[K
+[1.356s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.356s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.357s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.357s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.357s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.357s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.357s]       |                                         [32m[K%lX[m[K
+[1.357s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.357s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.357s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.357s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.357s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.357s]       |                                                                         [32m[K%lX[m[K
+[1.357s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.357s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.357s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.358s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.358s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.358s]       |                                       [32m[K%lX[m[K
+[1.393s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/SDMLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::SDMLidarDriver::createThread()[m[K’:
+[1.393s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/SDMLidarDriver.cpp:812:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.393s]   812 |     printf("[YDLIDAR] Create SDM thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[1.393s]       |                                           [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.393s]       |                                            [01;35m[K|[m[K                      [32m[K|[m[K
+[1.393s]       |                                            [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[1.393s]       |                                           [32m[K%lX[m[K
+[1.477s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/YDlidarDriver.h:46[m[K,
+[1.478s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:26[m[K:
+[1.478s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[1.478s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.478s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[1.478s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[1.478s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[1.478s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[1.478s]       |                                             [32m[K%lX[m[K
+[1.478s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.478s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[1.478s]       |                                             [01;35m[K~^[m[K
+[1.478s]       |                                              [01;35m[K|[m[K
+[1.479s]       |                                              [01;35m[Kunsigned int[m[K
+[1.479s]       |                                             [32m[K%lX[m[K
+[1.479s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[1.479s]       |             [32m[K~~~~~~~[m[K                           
+[1.479s]       |             [32m[K|[m[K
+[1.479s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[1.479s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.479s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[1.479s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[1.479s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[1.479s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[1.479s]       |                                         [32m[K%lX[m[K
+[1.479s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.479s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[1.479s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[1.480s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[1.480s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[1.480s]       |                                                                         [32m[K%lX[m[K
+[1.480s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GSLidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[1.480s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:863:80:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[1.480s]   863 |                 angTransform((*node).dist, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).dist[m[K);
+[1.480s]       |                                                                                [01;35m[K^~~~~~~~~~~~~[m[K
+[1.480s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.480s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[1.480s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[1.480s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[1.480s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[1.480s]       |                                       [32m[K%lX[m[K
+[1.480s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:865:81:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[1.481s]   865 |                 angTransform2((*node).dist, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).dist[m[K);
+[1.481s]       |                                                                                 [01;35m[K^~~~~~~~~~~~~[m[K
+[1.486s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GSLidarDriver::createThread()[m[K’:
+[1.486s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/GSLidarDriver.cpp:1455:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.486s]  1455 |     printf("[GS2Lidar] Create GS2 thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[1.486s]       |                                            [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.486s]       |                                             [01;35m[K|[m[K                      [32m[K|[m[K
+[1.486s]       |                                             [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[1.486s]       |                                            [32m[K%lX[m[K
+[1.589s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::createThread()[m[K’:
+[1.589s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:2010:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.589s]  2010 |   printf("[YDLIDAR] Create thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[1.589s]       |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.589s]       |                                      [01;35m[K|[m[K                      [32m[K|[m[K
+[1.589s]       |                                      [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[1.589s]       |                                     [32m[K%lX[m[K
+[1.937s] [ 45%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[1.975s] [ 45%] Built target ydlidar_sdk
+[1.999s] [ 47%] [32mBuilding CXX object samples/CMakeFiles/et_test.dir/et_test.cpp.o[0m
+[1.999s] [ 55%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[1.999s] [ 55%] [32mBuilding CXX object samples/CMakeFiles/sdm_test.dir/sdm_test.cpp.o[0m
+[2.000s] [ 55%] [32mBuilding CXX object samples/CMakeFiles/gs_test.dir/gs_test.cpp.o[0m
+[2.001s] [ 60%] [32mBuilding CXX object samples/CMakeFiles/scl_test.dir/scl_test.cpp.o[0m
+[2.002s] [ 60%] [32mBuilding CXX object samples/CMakeFiles/tmini_test.dir/tmini_test.cpp.o[0m
+[2.009s] [ 62%] [32mBuilding CXX object samples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o[0m
+[2.009s] [ 65%] [32mBuilding CXX object samples/CMakeFiles/tri_and_gs_test.dir/tri_and_gs_test.cpp.o[0m
+[2.157s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.157s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.157s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/sdm_test.cpp:34[m[K:
+[2.157s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.157s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.157s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.157s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.158s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.158s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.158s]       |                                             [32m[K%lX[m[K
+[2.158s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.158s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.158s]       |                                             [01;35m[K~^[m[K
+[2.158s]       |                                              [01;35m[K|[m[K
+[2.158s]       |                                              [01;35m[Kunsigned int[m[K
+[2.159s]       |                                             [32m[K%lX[m[K
+[2.159s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.159s]       |             [32m[K~~~~~~~[m[K                           
+[2.159s]       |             [32m[K|[m[K
+[2.159s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.159s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.159s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.159s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/et_test.cpp:34[m[K:
+[2.159s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.160s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.160s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.160s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.160s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.160s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.160s]       |                                             [32m[K%lX[m[K
+[2.160s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.160s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.160s]       |                                             [01;35m[K~^[m[K
+[2.160s]       |                                              [01;35m[K|[m[K
+[2.160s]       |                                              [01;35m[Kunsigned int[m[K
+[2.160s]       |                                             [32m[K%lX[m[K
+[2.160s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.160s]       |             [32m[K~~~~~~~[m[K                           
+[2.161s]       |             [32m[K|[m[K
+[2.161s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.161s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.161s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.161s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.161s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.161s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.161s]       |                                         [32m[K%lX[m[K
+[2.161s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.161s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.161s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.161s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.161s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.161s]       |                                         [32m[K%lX[m[K
+[2.161s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.161s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.162s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.162s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.162s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.162s]       |                                                                         [32m[K%lX[m[K
+[2.162s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.162s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.162s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.162s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.162s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.162s]       |                                       [32m[K%lX[m[K
+[2.162s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.162s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.162s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.162s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.162s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.163s]       |                                                                         [32m[K%lX[m[K
+[2.163s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.163s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.163s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.163s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.163s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.163s]       |                                       [32m[K%lX[m[K
+[2.164s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.164s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.164s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tmini_test.cpp:34[m[K:
+[2.164s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.164s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.164s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.165s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.165s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.165s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.165s]       |                                             [32m[K%lX[m[K
+[2.165s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.165s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.165s]       |                                             [01;35m[K~^[m[K
+[2.165s]       |                                              [01;35m[K|[m[K
+[2.165s]       |                                              [01;35m[Kunsigned int[m[K
+[2.165s]       |                                             [32m[K%lX[m[K
+[2.165s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.165s]       |             [32m[K~~~~~~~[m[K                           
+[2.165s]       |             [32m[K|[m[K
+[2.165s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.165s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.165s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.166s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.166s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.166s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.166s]       |                                         [32m[K%lX[m[K
+[2.166s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.166s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.166s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.166s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.166s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.166s]       |                                                                         [32m[K%lX[m[K
+[2.166s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.166s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.166s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.166s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.166s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.166s]       |                                       [32m[K%lX[m[K
+[2.173s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.173s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.173s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/scl_test.cpp:34[m[K:
+[2.173s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.173s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.173s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.173s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.173s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.173s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.173s]       |                                             [32m[K%lX[m[K
+[2.173s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.174s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.174s]       |                                             [01;35m[K~^[m[K
+[2.174s]       |                                              [01;35m[K|[m[K
+[2.174s]       |                                              [01;35m[Kunsigned int[m[K
+[2.174s]       |                                             [32m[K%lX[m[K
+[2.174s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.174s]       |             [32m[K~~~~~~~[m[K                           
+[2.174s]       |             [32m[K|[m[K
+[2.174s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.174s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.174s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.174s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.174s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.174s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.174s]       |                                         [32m[K%lX[m[K
+[2.174s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.175s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.175s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.175s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.175s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.175s]       |                                                                         [32m[K%lX[m[K
+[2.175s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.175s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.175s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.175s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.175s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.175s]       |                                       [32m[K%lX[m[K
+[2.232s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.233s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.233s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tof_test.cpp:38[m[K:
+[2.233s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.233s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.233s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.233s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.233s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.233s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.233s]       |                                             [32m[K%lX[m[K
+[2.233s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.233s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.233s]       |                                             [01;35m[K~^[m[K
+[2.233s]       |                                              [01;35m[K|[m[K
+[2.233s]       |                                              [01;35m[Kunsigned int[m[K
+[2.233s]       |                                             [32m[K%lX[m[K
+[2.234s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.234s]       |             [32m[K~~~~~~~[m[K                           
+[2.234s]       |             [32m[K|[m[K
+[2.234s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.234s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.234s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.234s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.234s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.234s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.234s]       |                                         [32m[K%lX[m[K
+[2.234s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.234s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.235s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.235s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.235s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.235s]       |                                                                         [32m[K%lX[m[K
+[2.235s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.235s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.235s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.235s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.236s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.236s]       |                                       [32m[K%lX[m[K
+[2.236s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.236s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.236s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/gs_test.cpp:40[m[K:
+[2.236s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.236s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.236s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.236s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.236s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.236s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.236s]       |                                             [32m[K%lX[m[K
+[2.236s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.237s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.237s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tri_restart.cpp:1[m[K:
+[2.237s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.237s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.237s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.237s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.237s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.237s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.237s]       |                                             [32m[K%lX[m[K
+[2.237s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.237s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.237s]       |                                             [01;35m[K~^[m[K
+[2.237s]       |                                              [01;35m[K|[m[K
+[2.237s]       |                                              [01;35m[Kunsigned int[m[K
+[2.237s]       |                                             [32m[K%lX[m[K
+[2.238s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.238s]       |             [32m[K~~~~~~~[m[K                           
+[2.238s]       |             [32m[K|[m[K
+[2.238s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.238s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.238s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.238s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.238s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.238s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.238s]       |                                         [32m[K%lX[m[K
+[2.238s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.238s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.238s]       |                                             [01;35m[K~^[m[K
+[2.238s]       |                                              [01;35m[K|[m[K
+[2.238s]       |                                              [01;35m[Kunsigned int[m[K
+[2.239s]       |                                             [32m[K%lX[m[K
+[2.239s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.239s]       |             [32m[K~~~~~~~[m[K                           
+[2.239s]       |             [32m[K|[m[K
+[2.239s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.239s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.239s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.239s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.239s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.239s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.239s]       |                                                                         [32m[K%lX[m[K
+[2.239s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.239s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.239s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.239s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.240s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.240s]       |                                         [32m[K%lX[m[K
+[2.240s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.240s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.240s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.240s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.240s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.240s]       |                                       [32m[K%lX[m[K
+[2.240s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.240s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.240s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.240s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.240s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.240s]       |                                                                         [32m[K%lX[m[K
+[2.240s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.240s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.241s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.241s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.241s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.241s]       |                                       [32m[K%lX[m[K
+[2.349s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.349s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.349s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tri_and_gs_test.cpp:1[m[K:
+[2.349s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.350s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.350s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.350s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.350s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.350s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.350s]       |                                             [32m[K%lX[m[K
+[2.350s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.350s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.350s]       |                                             [01;35m[K~^[m[K
+[2.350s]       |                                              [01;35m[K|[m[K
+[2.350s]       |                                              [01;35m[Kunsigned int[m[K
+[2.350s]       |                                             [32m[K%lX[m[K
+[2.350s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.350s]       |             [32m[K~~~~~~~[m[K                           
+[2.350s]       |             [32m[K|[m[K
+[2.351s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.351s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.351s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.351s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.351s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.351s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.351s]       |                                         [32m[K%lX[m[K
+[2.351s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.351s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.351s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.351s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.351s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.352s]       |                                                                         [32m[K%lX[m[K
+[2.352s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.352s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.352s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.352s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.352s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.352s]       |                                       [32m[K%lX[m[K
+[2.396s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/gs_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.396s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/gs_test.cpp:274:34:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 3 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.396s]   274 |       printf("module[%d] time[[01;35m[K%lld[m[K]\n", scan.moduleNum, t - ts[scan.moduleNum]);
+[2.397s]       |                               [01;35m[K~~~^[m[K
+[2.397s]       |                                  [01;35m[K|[m[K
+[2.397s]       |                                  [01;35m[Klong long int[m[K
+[2.397s]       |                               [32m[K%d[m[K
+[2.398s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/scl_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.398s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/scl_test.cpp:333:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.398s]   333 |       printf("Scan received [[01;35m[K%llu[m[K] points scanFreq [%.02f]\n",
+[2.398s]       |                              [01;35m[K~~~^[m[K
+[2.398s]       |                                 [01;35m[K|[m[K
+[2.398s]       |                                 [01;35m[Klong long unsigned int[m[K
+[2.398s]       |                              [32m[K%lu[m[K
+[2.398s]   334 |              [32m[Kscan.points.size()[m[K,
+[2.398s]       |              [32m[K~~~~~~~~~~~~~~~~~~[m[K  
+[2.398s]       |                              [32m[K|[m[K
+[2.399s]       |                              [32m[Kstd::vector<LaserPoint>::size_type {aka long unsigned int}[m[K
+[2.425s] [ 67%] [32m[1mLinking CXX executable ../tmini_test[0m
+[2.444s] [ 70%] [32m[1mLinking CXX executable ../et_test[0m
+[2.453s] [ 72%] [32m[1mLinking CXX executable ../sdm_test[0m
+[2.465s] [ 75%] [32m[1mLinking CXX executable ../tri_restart[0m
+[2.514s] [ 77%] [32m[1mLinking CXX executable ../tof_test[0m
+[2.585s] [ 80%] [32m[1mLinking CXX executable ../tri_and_gs_test[0m
+[2.601s] [ 80%] Built target tmini_test
+[2.609s] [ 80%] Built target et_test
+[2.609s] [ 80%] Built target sdm_test
+[2.617s] [ 82%] [32m[1mLinking CXX executable ../scl_test[0m
+[2.637s] [ 85%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[2.642s] [ 87%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[2.645s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[2.656s] [ 87%] Built target tri_restart
+[2.666s] [ 90%] [32mBuilding CXX object samples/CMakeFiles/tri_test.dir/tri_test.cpp.o[0m
+[2.697s] [ 92%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[2.722s] [ 95%] [32m[1mLinking CXX executable ../gs_test[0m
+[2.727s] [ 95%] Built target tof_test
+[2.732s] [ 95%] Built target tri_and_gs_test
+[2.758s] [ 95%] Built target scl_test
+[2.821s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[2.821s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[2.821s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tri_test.cpp:34[m[K:
+[2.821s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.821s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.821s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.822s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.822s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.822s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.822s]       |                                             [32m[K%lX[m[K
+[2.822s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.822s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.822s]       |                                             [01;35m[K~^[m[K
+[2.822s]       |                                              [01;35m[K|[m[K
+[2.822s]       |                                              [01;35m[Kunsigned int[m[K
+[2.822s]       |                                             [32m[K%lX[m[K
+[2.822s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.822s]       |             [32m[K~~~~~~~[m[K                           
+[2.822s]       |             [32m[K|[m[K
+[2.822s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.822s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.822s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.822s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.822s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.822s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.822s]       |                                         [32m[K%lX[m[K
+[2.822s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.822s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.822s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.822s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.822s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.822s]       |                                                                         [32m[K%lX[m[K
+[2.823s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.823s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.823s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.823s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.823s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.823s]       |                                       [32m[K%lX[m[K
+[2.838s] [ 95%] Built target lidar_c_api_test
+[2.875s] [ 95%] Built target gs_test
+[2.966s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tri_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.966s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/samples/tri_test.cpp:318:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.966s]   318 |       printf("Scan received [[01;35m[K%llu[m[K] points scanFreq [%.02f]\n",
+[2.966s]       |                              [01;35m[K~~~^[m[K
+[2.966s]       |                                 [01;35m[K|[m[K
+[2.966s]       |                                 [01;35m[Klong long unsigned int[m[K
+[2.966s]       |                              [32m[K%lu[m[K
+[2.966s]   319 |              [32m[Kscan.points.size()[m[K,
+[2.966s]       |              [32m[K~~~~~~~~~~~~~~~~~~[m[K  
+[2.966s]       |                              [32m[K|[m[K
+[2.966s]       |                              [32m[Kstd::vector<LaserPoint>::size_type {aka long unsigned int}[m[K
+[3.007s] In file included from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[3.007s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[3.007s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/test/lidar_test.h:5[m[K,
+[3.007s]                  from [01m[K/home/oh/slam_ws/src/YDLidar-SDK/test/lidar_test.cpp:1[m[K:
+[3.007s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[3.007s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.007s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[3.007s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[3.007s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[3.007s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[3.007s]       |                                             [32m[K%lX[m[K
+[3.007s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.007s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[3.007s]       |                                             [01;35m[K~^[m[K
+[3.007s]       |                                              [01;35m[K|[m[K
+[3.007s]       |                                              [01;35m[Kunsigned int[m[K
+[3.007s]       |                                             [32m[K%lX[m[K
+[3.007s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[3.008s]       |             [32m[K~~~~~~~[m[K                           
+[3.008s]       |             [32m[K|[m[K
+[3.008s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[3.008s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.008s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[3.008s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[3.008s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[3.008s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[3.008s]       |                                         [32m[K%lX[m[K
+[3.008s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.008s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[3.008s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[3.008s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[3.008s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[3.008s]       |                                                                         [32m[K%lX[m[K
+[3.008s] [01m[K/home/oh/slam_ws/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.008s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[3.008s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[3.008s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[3.008s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[3.008s]       |                                       [32m[K%lX[m[K
+[3.079s] [ 97%] [32m[1mLinking CXX executable ../tri_test[0m
+[3.165s] [ 97%] Built target tri_test
+[3.208s] [100%] [32m[1mLinking CXX executable lidar_test[0m
+[3.311s] [100%] Built target lidar_test

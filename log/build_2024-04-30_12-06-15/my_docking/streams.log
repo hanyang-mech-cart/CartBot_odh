@@ -1,0 +1,37 @@
+[1.207s] Invoking command in '/home/oh/slam_ws/src/my_docking': PYTHONPATH=/home/oh/slam_ws/build/my_docking/prefix_override:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/oh/slam_ws/build/my_docking/build install --record /home/oh/slam_ws/build/my_docking/install.log --single-version-externally-managed install_data
+[1.654s] running egg_info
+[1.655s] creating ../../build/my_docking/my_docking.egg-info
+[1.656s] writing ../../build/my_docking/my_docking.egg-info/PKG-INFO
+[1.656s] writing dependency_links to ../../build/my_docking/my_docking.egg-info/dependency_links.txt
+[1.656s] writing entry points to ../../build/my_docking/my_docking.egg-info/entry_points.txt
+[1.656s] writing requirements to ../../build/my_docking/my_docking.egg-info/requires.txt
+[1.657s] writing top-level names to ../../build/my_docking/my_docking.egg-info/top_level.txt
+[1.657s] writing manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[1.660s] reading manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[1.661s] writing manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[1.661s] running build
+[1.661s] running build_py
+[1.661s] creating /home/oh/slam_ws/build/my_docking/build
+[1.661s] creating /home/oh/slam_ws/build/my_docking/build/lib
+[1.661s] creating /home/oh/slam_ws/build/my_docking/build/lib/my_docking
+[1.661s] copying my_docking/docking.py -> /home/oh/slam_ws/build/my_docking/build/lib/my_docking
+[1.662s] copying my_docking/__init__.py -> /home/oh/slam_ws/build/my_docking/build/lib/my_docking
+[1.662s] running install
+[1.662s] running install_lib
+[1.665s] creating /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[1.665s] copying /home/oh/slam_ws/build/my_docking/build/lib/my_docking/docking.py -> /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[1.666s] copying /home/oh/slam_ws/build/my_docking/build/lib/my_docking/__init__.py -> /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[1.667s] byte-compiling /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py to docking.cpython-310.pyc
+[1.669s] byte-compiling /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking/__init__.py to __init__.cpython-310.pyc
+[1.669s] running install_data
+[1.669s] creating /home/oh/slam_ws/install/my_docking/share/ament_index
+[1.669s] creating /home/oh/slam_ws/install/my_docking/share/ament_index/resource_index
+[1.669s] creating /home/oh/slam_ws/install/my_docking/share/ament_index/resource_index/packages
+[1.669s] copying resource/my_docking -> /home/oh/slam_ws/install/my_docking/share/ament_index/resource_index/packages
+[1.670s] copying package.xml -> /home/oh/slam_ws/install/my_docking/share/my_docking
+[1.670s] running install_egg_info
+[1.672s] Copying ../../build/my_docking/my_docking.egg-info to /home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages/my_docking-0.0.0-py3.10.egg-info
+[1.673s] running install_scripts
+[1.709s] Installing docking script to /home/oh/slam_ws/install/my_docking/lib/my_docking
+[1.710s] writing list of installed files to '/home/oh/slam_ws/build/my_docking/install.log'
+[1.754s] Invoked command in '/home/oh/slam_ws/src/my_docking' returned '0': PYTHONPATH=/home/oh/slam_ws/build/my_docking/prefix_override:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/oh/slam_ws/build/my_docking/build install --record /home/oh/slam_ws/build/my_docking/install.log --single-version-externally-managed install_data
