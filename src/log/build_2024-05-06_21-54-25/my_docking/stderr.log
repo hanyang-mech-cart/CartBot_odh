@@ -1,0 +1,15 @@
+  File "/home/oh/slam_ws/src/install/my_docking/lib/python3.10/site-packages/my_docking/docking_server_trial.py", line 67
+    if len(msg.poses) > 0 and :
+                              ^
+SyntaxError: invalid syntax
+
+  File "/home/oh/slam_ws/src/install/my_docking/lib/python3.10/site-packages/my_docking/dockingtwo_action_server.py", line 77
+    feedback_msg.
+                 ^
+SyntaxError: invalid syntax
+
+  File "/home/oh/slam_ws/src/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py", line 67
+    if len(msg.poses) > 0 and :
+                              ^
+SyntaxError: invalid syntax
+

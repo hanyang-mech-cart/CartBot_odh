@@ -1,0 +1,58 @@
+[0.045s] Invoking command in '/home/oh/slam_ws/src/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/my_bot_description
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.356s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.495s] -- Detecting CXX compile features
+[0.495s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.814s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.019s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.178s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.179s] -- Configured cppcheck include dirs: 
+[1.179s] -- Configured cppcheck exclude dirs and/or files: 
+[1.185s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.194s] -- Added test 'lint_cmake' to check CMake code style
+[1.199s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.229s] -- Added test 'uncrustify' to check C / C++ code style
+[1.229s] -- Configured uncrustify additional arguments: 
+[1.238s] -- Added test 'xmllint' to check XML markup files
+[1.241s] -- Configuring done
+[1.245s] -- Generating done
+[1.246s] -- Build files have been written to: /home/oh/slam_ws/src/build/my_bot_description
+[1.268s] Invoked command in '/home/oh/slam_ws/src/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/my_bot_description
+[1.268s] Invoking command in '/home/oh/slam_ws/src/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/my_bot_description -- -j8 -l8
+[1.364s] Invoked command in '/home/oh/slam_ws/src/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/my_bot_description -- -j8 -l8
+[1.821s] Invoking command in '/home/oh/slam_ws/src/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/my_bot_description
+[1.832s] -- Install configuration: ""
+[1.832s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf
+[1.832s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf/.vscode
+[1.833s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf/.vscode/settings.json
+[1.833s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf/.vscode/c_cpp_properties.json
+[1.833s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf/diffbot_description.urdf.xacro
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/urdf/diffbot.materials.xacro
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/rviz
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/rviz/diffbot.rviz
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/rviz/diffbot_view.rviz
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[1.834s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/environment/path.sh
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/local_setup.bash
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/local_setup.sh
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[1.835s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/package.dsv
+[1.836s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[1.836s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[1.836s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[1.836s] -- Installing: /home/oh/slam_ws/src/install/my_bot_description/share/my_bot_description/package.xml
+[1.873s] Invoked command in '/home/oh/slam_ws/src/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/my_bot_description

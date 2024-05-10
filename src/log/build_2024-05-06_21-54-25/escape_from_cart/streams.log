@@ -1,0 +1,41 @@
+[0.846s] Invoking command in '/home/oh/slam_ws/src/escape_from_cart': PYTHONPATH=/home/oh/slam_ws/src/build/escape_from_cart/prefix_override:/home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/escape_from_cart build --build-base /home/oh/slam_ws/src/build/escape_from_cart/build install --record /home/oh/slam_ws/src/build/escape_from_cart/install.log --single-version-externally-managed install_data
+[1.414s] running egg_info
+[1.415s] creating ../build/escape_from_cart/escape_from_cart.egg-info
+[1.415s] writing ../build/escape_from_cart/escape_from_cart.egg-info/PKG-INFO
+[1.415s] writing dependency_links to ../build/escape_from_cart/escape_from_cart.egg-info/dependency_links.txt
+[1.415s] writing entry points to ../build/escape_from_cart/escape_from_cart.egg-info/entry_points.txt
+[1.415s] writing requirements to ../build/escape_from_cart/escape_from_cart.egg-info/requires.txt
+[1.415s] writing top-level names to ../build/escape_from_cart/escape_from_cart.egg-info/top_level.txt
+[1.416s] writing manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+[1.416s] reading manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+[1.416s] writing manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+[1.416s] running build
+[1.416s] running build_py
+[1.416s] creating /home/oh/slam_ws/src/build/escape_from_cart/build
+[1.416s] creating /home/oh/slam_ws/src/build/escape_from_cart/build/lib
+[1.417s] creating /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+[1.417s] copying escape_from_cart/escape_accel.py -> /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+[1.417s] copying escape_from_cart/__init__.py -> /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+[1.417s] running install
+[1.417s] running install_lib
+[1.417s] creating /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+[1.418s] copying /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart/escape_accel.py -> /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+[1.418s] copying /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart/__init__.py -> /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+[1.418s] byte-compiling /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py to escape_accel.cpython-310.pyc
+[1.418s] byte-compiling /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/__init__.py to __init__.cpython-310.pyc
+[1.418s] running install_data
+[1.418s] creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index
+[1.418s] creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index
+[1.418s] creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index/packages
+[1.418s] copying resource/escape_from_cart -> /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index/packages
+[1.419s] copying package.xml -> /home/oh/slam_ws/src/install/escape_from_cart/share/escape_from_cart
+[1.419s] running install_egg_info
+[1.419s] Copying ../build/escape_from_cart/escape_from_cart.egg-info to /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart-0.0.0-py3.10.egg-info
+[1.419s] running install_scripts
+[1.419s] writing list of installed files to '/home/oh/slam_ws/src/build/escape_from_cart/install.log'
+[1.419s]   File "/home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py", line 3
+[1.419s]     from rclpy
+[1.419s]               ^
+[1.419s] SyntaxError: invalid syntax
+[1.419s] 
+[1.420s] Invoked command in '/home/oh/slam_ws/src/escape_from_cart' returned '0': PYTHONPATH=/home/oh/slam_ws/src/build/escape_from_cart/prefix_override:/home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/escape_from_cart build --build-base /home/oh/slam_ws/src/build/escape_from_cart/build install --record /home/oh/slam_ws/src/build/escape_from_cart/install.log --single-version-externally-managed install_data

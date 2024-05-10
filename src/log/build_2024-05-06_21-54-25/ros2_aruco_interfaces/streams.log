@@ -1,0 +1,229 @@
+[0.268s] Invoking command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/ros2_aruco/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/ros2_aruco_interfaces
+[0.426s] -- The C compiler identification is GNU 11.4.0
+[0.532s] -- The CXX compiler identification is GNU 11.4.0
+[0.542s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.695s] -- Detecting CXX compiler ABI info
+[0.844s] -- Detecting CXX compiler ABI info - done
+[0.855s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.857s] -- Detecting CXX compile features - done
+[0.867s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.130s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.302s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.385s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.399s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.418s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.673s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.161s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.133s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.139s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.188s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.189s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.189s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.189s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.228s] -- Found PythonExtra: .so  
+[3.377s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.458s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.462s] -- Added test 'lint_cmake' to check CMake code style
+[3.464s] -- Added test 'xmllint' to check XML markup files
+[3.473s] -- Configuring done
+[3.560s] -- Generating done
+[3.563s] -- Build files have been written to: /home/oh/slam_ws/src/build/ros2_aruco_interfaces
+[3.579s] Invoked command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/ros2_aruco/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/ros2_aruco_interfaces
+[3.583s] Invoking command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/ros2_aruco_interfaces -- -j8 -l8
+[4.300s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.300s] [  3%] Built target ros2_aruco_interfaces__cpp
+[4.300s] [  3%] Built target ament_cmake_python_copy_ros2_aruco_interfaces
+[4.300s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.617s] [  9%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o[0m
+[5.352s] [ 12%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.561s] [ 12%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[5.980s] running egg_info
+[5.981s] creating ros2_aruco_interfaces.egg-info
+[5.982s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[5.983s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[5.985s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[5.986s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[5.990s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[5.992s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[6.031s] [ 12%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[6.045s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.433s] [ 19%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o[0m
+[7.115s] [ 22%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.328s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.412s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.918s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[8.521s] [ 32%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_cpp.so[0m
+[8.579s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[8.593s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.283s] [ 38%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c.o[0m
+[9.467s] [ 41%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_generator_c.so[0m
+[9.604s] [ 41%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[9.678s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.127s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o[0m
+[10.617s] [ 51%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.728s] [ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[10.742s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.119s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[11.161s] [ 61%] [32m[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_c.so[0m
+[11.216s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[11.231s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.603s] [ 67%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c.o[0m
+[11.660s] [ 70%] [32m[1mLinking C shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.706s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[11.738s] [ 70%] Built target ros2_aruco_interfaces
+[11.770s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.264s] [ 74%] Built target ros2_aruco_interfaces__py
+[12.294s] [ 77%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c.o[0m
+[12.467s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so[0m
+[12.617s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[12.659s] [ 83%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.792s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.844s] [ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.896s] [ 90%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.069s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.231s] [ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[13.363s] [ 96%] [32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.594s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.735s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.767s] Invoked command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/ros2_aruco_interfaces -- -j8 -l8
+[14.644s] Invoking command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/ros2_aruco_interfaces
+[18.786s] -- Install configuration: ""
+[18.786s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+[18.786s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.786s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv
+[18.787s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+[18.787s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so" to ""
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.788s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.788s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[18.788s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/dds_fastrtps
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.789s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.789s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.789s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+[18.790s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+[18.790s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so" to ""
+[18.790s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[18.790s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[18.790s] -- Up-to-date: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp
+[18.790s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.790s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+[18.791s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.791s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.792s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+[18.792s] Listing '/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+[18.792s] Compiling '/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py'...
+[18.792s] Listing '/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+[18.793s] Compiling '/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py'...
+[18.793s] Compiling '/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py'...
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.793s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.793s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.793s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+[18.793s] -- Set runtime path of "/home/oh/slam_ws/src/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so" to ""
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+[18.793s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+[18.794s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[18.795s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+[18.796s] -- Installing: /home/oh/slam_ws/src/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml
+[18.824s] Invoked command in '/home/oh/slam_ws/src/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/ros2_aruco_interfaces

@@ -1,0 +1,61 @@
+[0.025s] Invoking command in '/home/oh/slam_ws/src/build/cart_park_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/cart_park_autonomy -- -j8 -l8
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target autonomy_node[0m
+[0.158s] [ 25%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/patrol_behavior.cpp.o[0m
+[0.617s] In file included from [01m[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:7[m[K,
+[0.617s]                  from [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1[m[K:
+[0.617s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.617s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.617s]       |  [01;35m[K^~~~~~~[m[K
+[6.124s] In file included from [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1[m[K:
+[6.124s] [01m[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:[m[K In constructor ‘[01m[KRetry::Retry(const string&, const BT::NodeConfiguration&)[m[K’:
+[6.124s] [01m[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:67:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconfig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.125s]    67 |     Retry(const std::string& name, [01;35m[Kconst BT::NodeConfiguration& config[m[K)
+[6.125s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.437s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.439s]                  from [01m[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:1[m[K,
+[6.439s]                  from [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1[m[K:
+[6.439s] [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus Patrol::onRunning()[m[K’:
+[6.439s] [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:100:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.439s]   100 |     RCLCPP_INFO(node_ptr_->get_logger(), [01;35m[K"[%s] Goal reached\n"[m[K, this->name());
+[6.439s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.440s] [01m[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:100:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.440s]   100 |     RCLCPP_INFO(node_ptr_->get_logger(), "[[01;36m[K%s[m[K] Goal reached\n", this->name());
+[6.440s]       |                                            [01;36m[K~^[m[K
+[6.440s]       |                                             [01;36m[K|[m[K
+[6.440s]       |                                             [01;36m[Kchar*[m[K
+[11.925s] [ 50%] [32m[1mLinking CXX executable autonomy_node[0m
+[12.619s] [100%] Built target autonomy_node
+[12.641s] Invoked command in '/home/oh/slam_ws/src/build/cart_park_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/cart_park_autonomy -- -j8 -l8
+[12.740s] Invoking command in '/home/oh/slam_ws/src/build/cart_park_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/cart_park_autonomy
+[12.754s] -- Install configuration: ""
+[12.755s] -- Execute custom install script
+[12.756s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/bt_xml/tree.xml
+[12.756s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/launch/autonomy.launch.py
+[12.756s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/config/sim_house_locations.yaml
+[12.757s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/lib/cart_park_autonomy/autonomy_node
+[12.757s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/package_run_dependencies/cart_park_autonomy
+[12.757s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/parent_prefix_path/cart_park_autonomy
+[12.757s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.sh
+[12.758s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.dsv
+[12.758s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.sh
+[12.758s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.dsv
+[12.758s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.bash
+[12.759s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.sh
+[12.759s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.zsh
+[12.759s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.dsv
+[12.759s] -- Symlinking: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/package.dsv
+[12.777s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/packages/cart_park_autonomy
+[12.777s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig.cmake
+[12.777s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig-version.cmake
+[12.777s] -- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/package.xml
+[12.781s] Invoked command in '/home/oh/slam_ws/src/build/cart_park_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/cart_park_autonomy

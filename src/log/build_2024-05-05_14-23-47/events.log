@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (-) JobUnselected: {'identifier': 'behaviortree_cpp'}
+[0.001288] (-) JobUnselected: {'identifier': 'my_action_interface'}
+[0.001348] (-) JobUnselected: {'identifier': 'my_aruco_to_goal_pose_pkg'}
+[0.001380] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.001406] (-) JobUnselected: {'identifier': 'my_docking'}
+[0.001431] (-) JobUnselected: {'identifier': 'my_slam_package'}
+[0.001454] (-) JobUnselected: {'identifier': 'my_tf2_package'}
+[0.001477] (-) JobUnselected: {'identifier': 'my_tf_package'}
+[0.001504] (-) JobUnselected: {'identifier': 'odrive_demo_bringup'}
+[0.001530] (-) JobUnselected: {'identifier': 'odrive_demo_description'}
+[0.001556] (-) JobUnselected: {'identifier': 'odrive_hardware_interface'}
+[0.001583] (-) JobUnselected: {'identifier': 'odrive_ros2_control'}
+[0.001608] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001634] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001660] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001687] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.001713] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.001739] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.001765] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.001793] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.001819] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.001845] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.001871] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.001897] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.001922] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.001948] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.001974] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.002000] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.002026] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.002052] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.002078] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.002104] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.002130] (-) JobUnselected: {'identifier': 'tb3_autonomy'}
+[0.002157] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.002182] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.002214] (cart_park_autonomy) JobQueued: {'identifier': 'cart_park_autonomy', 'dependencies': OrderedDict()}
+[0.002248] (cart_park_autonomy) JobStarted: {'identifier': 'cart_park_autonomy'}
+[0.021048] (cart_park_autonomy) JobProgress: {'identifier': 'cart_park_autonomy', 'progress': 'cmake'}
+[0.023276] (cart_park_autonomy) JobProgress: {'identifier': 'cart_park_autonomy', 'progress': 'build'}
+[0.023404] (cart_park_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/oh/slam_ws/src/build/cart_park_autonomy', '--', '-j8', '-l8'], 'cwd': '/home/oh/slam_ws/src/build/cart_park_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'oh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/oh/slam_ws/install/usb_cam/lib:/home/oh/slam_ws/install/teleop_twist_joy/lib:/home/oh/slam_ws/install/ros2_control_demo_example_9/lib:/home/oh/slam_ws/install/ros2_control_demo_example_8/lib:/home/oh/slam_ws/install/ros2_control_demo_example_7/lib:/home/oh/slam_ws/install/ros2_control_demo_example_6/lib:/home/oh/slam_ws/install/ros2_control_demo_example_5/lib:/home/oh/slam_ws/install/ros2_control_demo_example_4/lib:/home/oh/slam_ws/install/ros2_control_demo_example_3/lib:/home/oh/slam_ws/install/ros2_control_demo_example_2/lib:/home/oh/slam_ws/install/ros2_control_demo_example_14/lib:/home/oh/slam_ws/install/ros2_control_demo_example_12/lib:/home/oh/slam_ws/install/ros2_control_demo_example_11/lib:/home/oh/slam_ws/install/ros2_control_demo_example_10/lib:/home/oh/slam_ws/install/ros2_control_demo_example_1/lib:/home/oh/slam_ws/install/ros2_aruco_interfaces/lib:/home/oh/slam_ws/install/realsense2_camera/lib:/home/oh/slam_ws/install/realsense2_camera_msgs/lib:/home/oh/slam_ws/install/odrive_hardware_interface/lib:/home/oh/slam_ws/install/my_action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/oh/slam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1734'), ('SYSTEMD_EXEC_PID', '1887'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/oh/slam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:37979'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/oh/anaconda3/condabin:/opt/ros/humble/bin:/home/oh/.cargo/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-950XDC-951XDC-950XDX:@/tmp/.ICE-unix/1864,unix/oh-950XDC-951XDC-950XDX:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '30134fbec15944c697b01940ef3efebe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AD47M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oh/slam_ws/install/usb_cam:/home/oh/slam_ws/install/teleop_twist_joy:/home/oh/slam_ws/install/ros2_control_demos:/home/oh/slam_ws/install/ros2_control_demo_example_9:/home/oh/slam_ws/install/ros2_control_demo_example_8:/home/oh/slam_ws/install/ros2_control_demo_example_7:/home/oh/slam_ws/install/ros2_control_demo_example_6:/home/oh/slam_ws/install/ros2_control_demo_example_5:/home/oh/slam_ws/install/ros2_control_demo_example_4:/home/oh/slam_ws/install/ros2_control_demo_example_3:/home/oh/slam_ws/install/ros2_control_demo_example_2:/home/oh/slam_ws/install/ros2_control_demo_example_14:/home/oh/slam_ws/install/ros2_control_demo_example_12:/home/oh/slam_ws/install/ros2_control_demo_example_11:/home/oh/slam_ws/install/ros2_control_demo_example_10:/home/oh/slam_ws/install/ros2_control_demo_example_1:/home/oh/slam_ws/install/odrive_ros2_control:/home/oh/slam_ws/install/odrive_demo_bringup:/home/oh/slam_ws/install/odrive_demo_description:/home/oh/slam_ws/install/ros2_control_demo_description:/home/oh/slam_ws/install/ros2_aruco_interfaces:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/realsense2_description:/home/oh/slam_ws/install/realsense2_camera:/home/oh/slam_ws/install/realsense2_camera_msgs:/home/oh/slam_ws/install/odrive_hardware_interface:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_slam_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_bot_description:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/my_action_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/oh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:280ebc4a-1cb9-43f0-b546-7d41a3c45d3e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/slam_ws/src/build/cart_park_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/oh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/oh/slam_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/oh/slam_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/oh/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/oh/slam_ws/install/my_tf_package/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/oh/slam_ws/install/usb_cam:/home/oh/slam_ws/install/teleop_twist_joy:/home/oh/slam_ws/install/ros2_control_demos:/home/oh/slam_ws/install/ros2_control_demo_example_9:/home/oh/slam_ws/install/ros2_control_demo_example_8:/home/oh/slam_ws/install/ros2_control_demo_example_7:/home/oh/slam_ws/install/ros2_control_demo_example_6:/home/oh/slam_ws/install/ros2_control_demo_example_5:/home/oh/slam_ws/install/ros2_control_demo_example_4:/home/oh/slam_ws/install/ros2_control_demo_example_3:/home/oh/slam_ws/install/ros2_control_demo_example_2:/home/oh/slam_ws/install/ros2_control_demo_example_14:/home/oh/slam_ws/install/ros2_control_demo_example_12:/home/oh/slam_ws/install/ros2_control_demo_example_11:/home/oh/slam_ws/install/ros2_control_demo_example_10:/home/oh/slam_ws/install/ros2_control_demo_example_1:/home/oh/slam_ws/install/odrive_ros2_control:/home/oh/slam_ws/install/odrive_demo_bringup:/home/oh/slam_ws/install/odrive_demo_description:/home/oh/slam_ws/install/ros2_control_demo_description:/home/oh/slam_ws/install/ros2_aruco_interfaces:/home/oh/slam_ws/install/realsense2_description:/home/oh/slam_ws/install/realsense2_camera:/home/oh/slam_ws/install/realsense2_camera_msgs:/home/oh/slam_ws/install/odrive_hardware_interface:/home/oh/slam_ws/install/my_slam_package:/home/oh/slam_ws/install/my_bot_description:/home/oh/slam_ws/install/my_action_interface:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099582] (-) TimerEvent: {}
+[0.112906] (cart_park_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target autonomy_node\x1b[0m\n'}
+[0.160344] (cart_park_autonomy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/patrol_behavior.cpp.o\x1b[0m\n'}
+[0.199840] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.401034] (-) TimerEvent: {}
+[0.501599] (-) TimerEvent: {}
+[0.602164] (-) TimerEvent: {}
+[0.618718] (cart_park_autonomy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:7\x1b[m\x1b[K,\n'}
+[0.619059] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1\x1b[m\x1b[K:\n'}
+[0.619179] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.619288] (cart_park_autonomy) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[0.619384] (cart_park_autonomy) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.702412] (-) TimerEvent: {}
+[0.802992] (-) TimerEvent: {}
+[0.903531] (-) TimerEvent: {}
+[1.004077] (-) TimerEvent: {}
+[1.104558] (-) TimerEvent: {}
+[1.205114] (-) TimerEvent: {}
+[1.305683] (-) TimerEvent: {}
+[1.406138] (-) TimerEvent: {}
+[1.506758] (-) TimerEvent: {}
+[1.607421] (-) TimerEvent: {}
+[1.707968] (-) TimerEvent: {}
+[1.808439] (-) TimerEvent: {}
+[1.908935] (-) TimerEvent: {}
+[2.009608] (-) TimerEvent: {}
+[2.110146] (-) TimerEvent: {}
+[2.210692] (-) TimerEvent: {}
+[2.311159] (-) TimerEvent: {}
+[2.411719] (-) TimerEvent: {}
+[2.512191] (-) TimerEvent: {}
+[2.612652] (-) TimerEvent: {}
+[2.713110] (-) TimerEvent: {}
+[2.813688] (-) TimerEvent: {}
+[2.914225] (-) TimerEvent: {}
+[3.014800] (-) TimerEvent: {}
+[3.115399] (-) TimerEvent: {}
+[3.215971] (-) TimerEvent: {}
+[3.316497] (-) TimerEvent: {}
+[3.417072] (-) TimerEvent: {}
+[3.517557] (-) TimerEvent: {}
+[3.618071] (-) TimerEvent: {}
+[3.718622] (-) TimerEvent: {}
+[3.819223] (-) TimerEvent: {}
+[3.919718] (-) TimerEvent: {}
+[4.020382] (-) TimerEvent: {}
+[4.121027] (-) TimerEvent: {}
+[4.221547] (-) TimerEvent: {}
+[4.322158] (-) TimerEvent: {}
+[4.422640] (-) TimerEvent: {}
+[4.523142] (-) TimerEvent: {}
+[4.623837] (-) TimerEvent: {}
+[4.724309] (-) TimerEvent: {}
+[4.824847] (-) TimerEvent: {}
+[4.925314] (-) TimerEvent: {}
+[5.025853] (-) TimerEvent: {}
+[5.126461] (-) TimerEvent: {}
+[5.227153] (-) TimerEvent: {}
+[5.327814] (-) TimerEvent: {}
+[5.428418] (-) TimerEvent: {}
+[5.528924] (-) TimerEvent: {}
+[5.629407] (-) TimerEvent: {}
+[5.729959] (-) TimerEvent: {}
+[5.830529] (-) TimerEvent: {}
+[5.931007] (-) TimerEvent: {}
+[6.031531] (-) TimerEvent: {}
+[6.125700] (cart_park_autonomy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1\x1b[m\x1b[K:\n'}
+[6.126204] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRetry::Retry(const string&, const BT::NodeConfiguration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.126445] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:67:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kconfig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.126705] (cart_park_autonomy) StderrLine: {'line': b'   67 |     Retry(const std::string& name, \x1b[01;35m\x1b[Kconst BT::NodeConfiguration& config\x1b[m\x1b[K)\n'}
+[6.126900] (cart_park_autonomy) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.131680] (-) TimerEvent: {}
+[6.232248] (-) TimerEvent: {}
+[6.332992] (-) TimerEvent: {}
+[6.433486] (-) TimerEvent: {}
+[6.438676] (cart_park_autonomy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.439012] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.439147] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.439284] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.439435] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.439609] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.439835] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.440043] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.440248] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.440442] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.440637] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.440828] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/include/patrol_behavior.h:1\x1b[m\x1b[K,\n'}
+[6.441018] (cart_park_autonomy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:1\x1b[m\x1b[K:\n'}
+[6.441143] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus Patrol::onRunning()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.441268] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:100:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kconst string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.441430] (cart_park_autonomy) StderrLine: {'line': b'  100 |     RCLCPP_INFO(node_ptr_->get_logger(), \x1b[01;35m\x1b[K"[%s] Goal reached\\n"\x1b[m\x1b[K, this->name());\n'}
+[6.441556] (cart_park_autonomy) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.441735] (cart_park_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/oh/slam_ws/src/cart_park_autonomy/src/patrol_behavior.cpp:100:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.441912] (cart_park_autonomy) StderrLine: {'line': b'  100 |     RCLCPP_INFO(node_ptr_->get_logger(), "[\x1b[01;36m\x1b[K%s\x1b[m\x1b[K] Goal reached\\n", this->name());\n'}
+[6.442113] (cart_park_autonomy) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.442320] (cart_park_autonomy) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.442461] (cart_park_autonomy) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[6.533689] (-) TimerEvent: {}
+[6.634190] (-) TimerEvent: {}
+[6.734770] (-) TimerEvent: {}
+[6.835245] (-) TimerEvent: {}
+[6.935753] (-) TimerEvent: {}
+[7.036280] (-) TimerEvent: {}
+[7.136834] (-) TimerEvent: {}
+[7.237543] (-) TimerEvent: {}
+[7.338176] (-) TimerEvent: {}
+[7.438658] (-) TimerEvent: {}
+[7.539216] (-) TimerEvent: {}
+[7.639774] (-) TimerEvent: {}
+[7.740280] (-) TimerEvent: {}
+[7.840853] (-) TimerEvent: {}
+[7.941328] (-) TimerEvent: {}
+[8.041879] (-) TimerEvent: {}
+[8.142485] (-) TimerEvent: {}
+[8.243099] (-) TimerEvent: {}
+[8.343716] (-) TimerEvent: {}
+[8.444228] (-) TimerEvent: {}
+[8.544754] (-) TimerEvent: {}
+[8.645422] (-) TimerEvent: {}
+[8.746058] (-) TimerEvent: {}
+[8.846720] (-) TimerEvent: {}
+[8.947320] (-) TimerEvent: {}
+[9.047885] (-) TimerEvent: {}
+[9.148469] (-) TimerEvent: {}
+[9.249097] (-) TimerEvent: {}
+[9.349780] (-) TimerEvent: {}
+[9.450275] (-) TimerEvent: {}
+[9.550722] (-) TimerEvent: {}
+[9.651204] (-) TimerEvent: {}
+[9.751732] (-) TimerEvent: {}
+[9.852326] (-) TimerEvent: {}
+[9.952901] (-) TimerEvent: {}
+[10.053478] (-) TimerEvent: {}
+[10.154032] (-) TimerEvent: {}
+[10.254642] (-) TimerEvent: {}
+[10.355271] (-) TimerEvent: {}
+[10.455906] (-) TimerEvent: {}
+[10.556465] (-) TimerEvent: {}
+[10.657016] (-) TimerEvent: {}
+[10.757575] (-) TimerEvent: {}
+[10.858144] (-) TimerEvent: {}
+[10.958696] (-) TimerEvent: {}
+[11.059343] (-) TimerEvent: {}
+[11.159884] (-) TimerEvent: {}
+[11.260348] (-) TimerEvent: {}
+[11.360787] (-) TimerEvent: {}
+[11.461240] (-) TimerEvent: {}
+[11.561753] (-) TimerEvent: {}
+[11.662354] (-) TimerEvent: {}
+[11.763027] (-) TimerEvent: {}
+[11.863718] (-) TimerEvent: {}
+[11.926764] (cart_park_autonomy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable autonomy_node\x1b[0m\n'}
+[11.963891] (-) TimerEvent: {}
+[12.064482] (-) TimerEvent: {}
+[12.165071] (-) TimerEvent: {}
+[12.265662] (-) TimerEvent: {}
+[12.366262] (-) TimerEvent: {}
+[12.466812] (-) TimerEvent: {}
+[12.567403] (-) TimerEvent: {}
+[12.621369] (cart_park_autonomy) StdoutLine: {'line': b'[100%] Built target autonomy_node\n'}
+[12.642584] (cart_park_autonomy) CommandEnded: {'returncode': 0}
+[12.667530] (-) TimerEvent: {}
+[12.724034] (cart_park_autonomy) JobProgress: {'identifier': 'cart_park_autonomy', 'progress': 'install'}
+[12.741474] (cart_park_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/oh/slam_ws/src/build/cart_park_autonomy'], 'cwd': '/home/oh/slam_ws/src/build/cart_park_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'oh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/oh/slam_ws/install/usb_cam/lib:/home/oh/slam_ws/install/teleop_twist_joy/lib:/home/oh/slam_ws/install/ros2_control_demo_example_9/lib:/home/oh/slam_ws/install/ros2_control_demo_example_8/lib:/home/oh/slam_ws/install/ros2_control_demo_example_7/lib:/home/oh/slam_ws/install/ros2_control_demo_example_6/lib:/home/oh/slam_ws/install/ros2_control_demo_example_5/lib:/home/oh/slam_ws/install/ros2_control_demo_example_4/lib:/home/oh/slam_ws/install/ros2_control_demo_example_3/lib:/home/oh/slam_ws/install/ros2_control_demo_example_2/lib:/home/oh/slam_ws/install/ros2_control_demo_example_14/lib:/home/oh/slam_ws/install/ros2_control_demo_example_12/lib:/home/oh/slam_ws/install/ros2_control_demo_example_11/lib:/home/oh/slam_ws/install/ros2_control_demo_example_10/lib:/home/oh/slam_ws/install/ros2_control_demo_example_1/lib:/home/oh/slam_ws/install/ros2_aruco_interfaces/lib:/home/oh/slam_ws/install/realsense2_camera/lib:/home/oh/slam_ws/install/realsense2_camera_msgs/lib:/home/oh/slam_ws/install/odrive_hardware_interface/lib:/home/oh/slam_ws/install/my_action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/oh/slam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1734'), ('SYSTEMD_EXEC_PID', '1887'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/oh/slam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:37979'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/oh/anaconda3/condabin:/opt/ros/humble/bin:/home/oh/.cargo/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-950XDC-951XDC-950XDX:@/tmp/.ICE-unix/1864,unix/oh-950XDC-951XDC-950XDX:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '30134fbec15944c697b01940ef3efebe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AD47M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/oh/slam_ws/install/usb_cam:/home/oh/slam_ws/install/teleop_twist_joy:/home/oh/slam_ws/install/ros2_control_demos:/home/oh/slam_ws/install/ros2_control_demo_example_9:/home/oh/slam_ws/install/ros2_control_demo_example_8:/home/oh/slam_ws/install/ros2_control_demo_example_7:/home/oh/slam_ws/install/ros2_control_demo_example_6:/home/oh/slam_ws/install/ros2_control_demo_example_5:/home/oh/slam_ws/install/ros2_control_demo_example_4:/home/oh/slam_ws/install/ros2_control_demo_example_3:/home/oh/slam_ws/install/ros2_control_demo_example_2:/home/oh/slam_ws/install/ros2_control_demo_example_14:/home/oh/slam_ws/install/ros2_control_demo_example_12:/home/oh/slam_ws/install/ros2_control_demo_example_11:/home/oh/slam_ws/install/ros2_control_demo_example_10:/home/oh/slam_ws/install/ros2_control_demo_example_1:/home/oh/slam_ws/install/odrive_ros2_control:/home/oh/slam_ws/install/odrive_demo_bringup:/home/oh/slam_ws/install/odrive_demo_description:/home/oh/slam_ws/install/ros2_control_demo_description:/home/oh/slam_ws/install/ros2_aruco_interfaces:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/realsense2_description:/home/oh/slam_ws/install/realsense2_camera:/home/oh/slam_ws/install/realsense2_camera_msgs:/home/oh/slam_ws/install/odrive_hardware_interface:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_slam_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_bot_description:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/my_action_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/oh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:280ebc4a-1cb9-43f0-b546-7d41a3c45d3e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/slam_ws/src/build/cart_park_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/oh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/oh/slam_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/oh/slam_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/oh/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/oh/slam_ws/install/my_tf_package/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_tf2_package/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_docking/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg/lib/python3.10/site-packages:/home/oh/slam_ws/install/my_action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/oh/slam_ws/install/usb_cam:/home/oh/slam_ws/install/teleop_twist_joy:/home/oh/slam_ws/install/ros2_control_demos:/home/oh/slam_ws/install/ros2_control_demo_example_9:/home/oh/slam_ws/install/ros2_control_demo_example_8:/home/oh/slam_ws/install/ros2_control_demo_example_7:/home/oh/slam_ws/install/ros2_control_demo_example_6:/home/oh/slam_ws/install/ros2_control_demo_example_5:/home/oh/slam_ws/install/ros2_control_demo_example_4:/home/oh/slam_ws/install/ros2_control_demo_example_3:/home/oh/slam_ws/install/ros2_control_demo_example_2:/home/oh/slam_ws/install/ros2_control_demo_example_14:/home/oh/slam_ws/install/ros2_control_demo_example_12:/home/oh/slam_ws/install/ros2_control_demo_example_11:/home/oh/slam_ws/install/ros2_control_demo_example_10:/home/oh/slam_ws/install/ros2_control_demo_example_1:/home/oh/slam_ws/install/odrive_ros2_control:/home/oh/slam_ws/install/odrive_demo_bringup:/home/oh/slam_ws/install/odrive_demo_description:/home/oh/slam_ws/install/ros2_control_demo_description:/home/oh/slam_ws/install/ros2_aruco_interfaces:/home/oh/slam_ws/install/realsense2_description:/home/oh/slam_ws/install/realsense2_camera:/home/oh/slam_ws/install/realsense2_camera_msgs:/home/oh/slam_ws/install/odrive_hardware_interface:/home/oh/slam_ws/install/my_slam_package:/home/oh/slam_ws/install/my_bot_description:/home/oh/slam_ws/install/my_action_interface:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble')]), 'shell': False}
+[12.756011] (cart_park_autonomy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.757090] (cart_park_autonomy) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.757750] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/bt_xml/tree.xml\n'}
+[12.758040] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/launch/autonomy.launch.py\n'}
+[12.758257] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/config/sim_house_locations.yaml\n'}
+[12.758781] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/lib/cart_park_autonomy/autonomy_node\n'}
+[12.759022] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/package_run_dependencies/cart_park_autonomy\n'}
+[12.759280] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/parent_prefix_path/cart_park_autonomy\n'}
+[12.759545] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.sh\n'}
+[12.759856] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.dsv\n'}
+[12.760163] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.sh\n'}
+[12.760412] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.dsv\n'}
+[12.760640] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.bash\n'}
+[12.760815] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.sh\n'}
+[12.760986] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.zsh\n'}
+[12.761207] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.dsv\n'}
+[12.761379] (cart_park_autonomy) StdoutLine: {'line': b'-- Symlinking: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/package.dsv\n'}
+[12.767607] (-) TimerEvent: {}
+[12.778912] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/ament_index/resource_index/packages/cart_park_autonomy\n'}
+[12.779250] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig.cmake\n'}
+[12.779392] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig-version.cmake\n'}
+[12.779546] (cart_park_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/slam_ws/src/install/cart_park_autonomy/share/cart_park_autonomy/package.xml\n'}
+[12.782814] (cart_park_autonomy) CommandEnded: {'returncode': 0}
+[12.867858] (-) TimerEvent: {}
+[12.890458] (cart_park_autonomy) JobEnded: {'identifier': 'cart_park_autonomy', 'rc': 0}
+[12.891717] (-) EventReactorShutdown: {}

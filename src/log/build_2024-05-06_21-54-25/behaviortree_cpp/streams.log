@@ -1,0 +1,331 @@
+[0.029s] Invoking command in '/home/oh/slam_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/BehaviorTree.CPP -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/behaviortree_cpp
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.364s] -- The CXX compiler identification is GNU 11.4.0
+[0.364s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.365s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.421s] -- Setting build type to 'Release' as none was specified.
+[0.425s] -- Looking for pthread.h
+[0.558s] -- Looking for pthread.h - found
+[0.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.769s] -- Found Threads: TRUE  
+[1.068s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.211s] -- ------------------------------------------
+[1.211s] -- BehaviourTree is being built using AMENT.
+[1.211s] -- ------------------------------------------
+[1.222s] -- Found ZeroMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[1.226s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[1.231s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.238s] -- BTCPP_EXTRA_LIBRARIES: $<BUILD_INTERFACE:ament_index_cpp::ament_index_cpp>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libzmq.so>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libsqlite3.so>
+[1.238s] -- BTCPP_LIB_DESTINATION:   lib 
+[1.238s] -- BTCPP_INCLUDE_DESTINATION: include 
+[1.238s] -- BTCPP_UNIT_TESTS:   ON 
+[1.245s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.248s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.344s] -- Configuring done
+[1.410s] -- Generating done
+[1.413s] -- Build files have been written to: /home/oh/slam_ws/src/build/behaviortree_cpp
+[1.420s] Invoked command in '/home/oh/slam_ws/src/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake /home/oh/slam_ws/src/BehaviorTree.CPP -DCMAKE_INSTALL_PREFIX=/home/oh/slam_ws/src/install/behaviortree_cpp
+[1.427s] Invoking command in '/home/oh/slam_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/behaviortree_cpp -- -j8 -l8
+[1.493s] [  0%] [32mBuilding CXX object 3rdparty/lexy/src/CMakeFiles/lexy_file.dir/input/file.cpp.o[0m
+[1.496s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.518s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.789s] [  3%] [32m[1mLinking CXX static library liblexy_file.a[0m
+[1.868s] [  3%] Built target lexy_file
+[1.922s] [  3%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o[0m
+[1.933s] [  4%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o[0m
+[1.947s] [  5%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o[0m
+[2.016s] [  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o[0m
+[2.021s] [  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o[0m
+[2.025s] [  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o[0m
+[2.937s] [  8%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.153s] [  8%] Built target gtest_main
+[3.212s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o[0m
+[11.004s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o[0m
+[11.297s] [ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o[0m
+[12.121s] [ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o[0m
+[14.018s] [ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o[0m
+[14.960s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o[0m
+[15.623s] [ 13%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o[0m
+[18.643s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o[0m
+[19.987s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o[0m
+[25.875s] [ 14%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.055s] [ 14%] Built target gtest
+[37.069s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o[0m
+[41.120s] [ 15%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/updated_decorator.cpp.o[0m
+[45.782s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o[0m
+[48.618s] [ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o[0m
+[51.623s] [ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o[0m
+[55.763s] [ 18%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o[0m
+[60.309s] [ 19%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o[0m
+[63.058s] [ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o[0m
+[65.878s] [ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_node.cpp.o[0m
+[68.910s] [ 21%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_with_memory_node.cpp.o[0m
+[72.093s] [ 22%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/switch_node.cpp.o[0m
+[75.010s] [ 22%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/while_do_else_node.cpp.o[0m
+[77.593s] [ 23%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_cout_logger.cpp.o[0m
+[81.056s] [ 24%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_file_logger_v2.cpp.o[0m
+[83.909s] [ 25%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_minitrace_logger.cpp.o[0m
+[86.448s] [ 25%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_observer.cpp.o[0m
+[89.241s] [ 26%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/3rdparty/tinyxml2/tinyxml2.cpp.o[0m
+[90.142s] [ 27%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/3rdparty/minitrace/minitrace.cpp.o[0m
+[90.411s] [ 27%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/groot2_publisher.cpp.o[0m
+[93.422s] [ 28%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_sqlite_logger.cpp.o[0m
+[94.435s] [ 29%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o[0m
+[95.448s] [ 30%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o[0m
+[96.498s] [ 30%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o[0m
+[97.377s] [ 31%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o[0m
+[101.337s] [ 32%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/shared_library_UNIX.cpp.o[0m
+[101.796s] [ 33%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o[0m
+[104.507s] [ 34%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/updated_action.cpp.o[0m
+[108.849s] [ 35%] [32m[1mLinking CXX shared library libbehaviortree_cpp.so[0m
+[109.093s] [ 35%] Built target behaviortree_cpp
+[109.123s] [ 36%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/crossdoor_nodes.cpp.o[0m
+[109.123s] [ 37%] [32mBuilding CXX object sample_nodes/CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o[0m
+[110.200s] [ 37%] [32mBuilding CXX object examples/CMakeFiles/test_plugin_action.dir/plugin_example/plugin_action.cpp.o[0m
+[111.299s] [ 37%] [32mBuilding CXX object examples/CMakeFiles/t01_first_tree_dynamic.dir/t01_build_your_first_tree.cpp.o[0m
+[112.371s] [ 37%] [32mBuilding CXX object tools/CMakeFiles/bt4_plugin_manifest.dir/bt_plugin_manifest.cpp.o[0m
+[113.472s] [ 37%] [32m[1mLinking CXX shared library bin/libcrossdoor_nodes_dyn.so[0m
+[113.592s] [ 37%] Built target crossdoor_nodes_dyn
+[113.761s] [ 38%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/dummy_nodes.cpp.o[0m
+[115.640s] [ 39%] [32m[1mLinking CXX shared library test_plugin_action.so[0m
+[115.763s] [ 39%] Built target test_plugin_action
+[115.839s] [ 40%] [32m[1mLinking CXX executable t01_first_tree_dynamic[0m
+[115.926s] [ 40%] Built target t01_first_tree_dynamic
+[116.808s] [ 41%] [32m[1mLinking CXX executable bt4_plugin_manifest[0m
+[116.888s] [ 41%] Built target bt4_plugin_manifest
+[117.385s] [ 41%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/movebase_node.cpp.o[0m
+[119.652s] [ 42%] [32m[1mLinking CXX static library lib/libbt_sample_nodes.a[0m
+[119.681s] [ 42%] Built target bt_sample_nodes
+[119.698s] [ 44%] [32mBuilding CXX object tools/CMakeFiles/bt4_log_cat.dir/bt_log_cat.cpp.o[0m
+[119.699s] [ 44%] [32mBuilding CXX object examples/CMakeFiles/test_plugin_executor.dir/plugin_example/plugin_executor.cpp.o[0m
+[120.396s] [ 45%] [32m[1mLinking CXX executable bt4_log_cat[0m
+[120.499s] [ 45%] Built target bt4_log_cat
+[120.526s] [ 46%] [32mBuilding CXX object examples/CMakeFiles/t03_generic_ports.dir/t03_generic_ports.cpp.o[0m
+[121.542s] [ 47%] [32mBuilding CXX object examples/CMakeFiles/t04_reactive_sequence.dir/t04_reactive_sequence.cpp.o[0m
+[122.021s] [ 48%] [32m[1mLinking CXX executable test_plugin_executor[0m
+[122.114s] [ 48%] Built target test_plugin_executor
+[122.132s] [ 48%] [32mBuilding CXX object examples/CMakeFiles/t02_basic_ports.dir/t02_basic_ports.cpp.o[0m
+[122.135s] [ 49%] [32mBuilding CXX object examples/CMakeFiles/t01_first_tree_static.dir/t01_build_your_first_tree.cpp.o[0m
+[123.236s] [ 50%] [32mBuilding CXX object examples/CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o[0m
+[124.282s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/src/action_test_node.cpp.o[0m
+[125.424s] [ 51%] [32mBuilding CXX object sample_nodes/CMakeFiles/movebase_node_dyn.dir/movebase_node.cpp.o[0m
+[125.475s] [ 51%] [32m[1mLinking CXX executable t03_generic_ports[0m
+[125.785s] [ 51%] Built target t03_generic_ports
+[125.835s] [ 52%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/src/condition_test_node.cpp.o[0m
+[125.873s] [ 53%] [32mBuilding CXX object sample_nodes/CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o[0m
+[126.970s] [ 54%] [32m[1mLinking CXX executable t04_reactive_sequence[0m
+[127.332s] [ 54%] Built target t04_reactive_sequence
+[127.438s] [ 55%] [32m[1mLinking CXX executable t01_first_tree_static[0m
+[127.461s] [ 56%] [32mBuilding CXX object examples/CMakeFiles/t06_subtree_port_remapping.dir/t06_subtree_port_remapping.cpp.o[0m
+[127.740s] [ 56%] Built target t01_first_tree_static
+[127.835s] [ 56%] [32mBuilding CXX object examples/CMakeFiles/t07_load_multiple_xml.dir/t07_load_multiple_xml.cpp.o[0m
+[127.925s] [ 57%] [32m[1mLinking CXX executable t02_basic_ports[0m
+[127.979s] [ 58%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_any.cpp.o[0m
+[128.185s] [ 58%] Built target t02_basic_ports
+[128.367s] [ 58%] [32m[1mLinking CXX executable t05_crossdoor[0m
+[128.695s] [ 58%] Built target t05_crossdoor
+[130.453s] [ 59%] [32m[1mLinking CXX shared library bin/libmovebase_node_dyn.so[0m
+[130.534s] [ 59%] Built target movebase_node_dyn
+[131.240s] [ 60%] [32m[1mLinking CXX shared library bin/libdummy_nodes_dyn.so[0m
+[131.314s] [ 60%] Built target dummy_nodes_dyn
+[132.139s] [ 61%] [32m[1mLinking CXX executable t06_subtree_port_remapping[0m
+[132.228s] [ 61%] Built target t06_subtree_port_remapping
+[132.318s] [ 62%] [32m[1mLinking CXX executable t07_load_multiple_xml[0m
+[132.404s] [ 62%] Built target t07_load_multiple_xml
+[132.807s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_fallback.cpp.o[0m
+[133.818s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_factory.cpp.o[0m
+[133.819s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_enums.cpp.o[0m
+[133.821s] [ 64%] [32mBuilding CXX object examples/CMakeFiles/t09_scripting.dir/t09_scripting.cpp.o[0m
+[133.825s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/t08_additional_node_args.dir/t08_additional_node_args.cpp.o[0m
+[134.833s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_decorator.cpp.o[0m
+[135.855s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_coroutines.cpp.o[0m
+[135.870s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_blackboard.cpp.o[0m
+[138.325s] [ 68%] [32m[1mLinking CXX executable t08_additional_node_args[0m
+[138.461s] [ 69%] [32m[1mLinking CXX executable t09_scripting[0m
+[138.607s] [ 69%] Built target t08_additional_node_args
+[138.702s] [ 69%] Built target t09_scripting
+[138.734s] [ 70%] [32mBuilding CXX object examples/CMakeFiles/t10_observer.dir/t10_observer.cpp.o[0m
+[138.747s] [ 70%] [32mBuilding CXX object examples/CMakeFiles/t11_groot_howto.dir/t11_groot_howto.cpp.o[0m
+[139.135s] [ 71%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_parallel.cpp.o[0m
+[141.311s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_preconditions.cpp.o[0m
+[141.984s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_ports.cpp.o[0m
+[142.208s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_postconditions.cpp.o[0m
+[143.373s] [ 74%] [32m[1mLinking CXX executable t10_observer[0m
+[143.614s] [ 74%] Built target t10_observer
+[143.639s] [ 75%] [32mBuilding CXX object examples/CMakeFiles/t12_default_ports.dir/t12_default_ports.cpp.o[0m
+[143.646s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/t13_access_by_ref.dir/t13_access_by_ref.cpp.o[0m
+[146.051s] [ 77%] [32m[1mLinking CXX executable t11_groot_howto[0m
+[146.387s] [ 77%] Built target t11_groot_howto
+[146.515s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/t14_subtree_model.dir/t14_subtree_model.cpp.o[0m
+[148.766s] [ 79%] [32m[1mLinking CXX executable t13_access_by_ref[0m
+[148.828s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_match.cpp.o[0m
+[149.079s] [ 80%] Built target t13_access_by_ref
+[149.221s] [ 81%] [32mBuilding CXX object examples/CMakeFiles/t15_nodes_mocking.dir/t15_nodes_mocking.cpp.o[0m
+[149.841s] [ 82%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_json.cpp.o[0m
+[150.121s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_reactive_backchaining.cpp.o[0m
+[150.127s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_reactive.cpp.o[0m
+[150.643s] [ 84%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_sequence.cpp.o[0m
+[150.711s] [ 84%] [32m[1mLinking CXX executable t14_subtree_model[0m
+[151.014s] [ 84%] [32m[1mLinking CXX executable t12_default_ports[0m
+[151.040s] [ 84%] Built target t14_subtree_model
+[151.179s] [ 84%] Built target t12_default_ports
+[151.210s] [ 85%] [32mBuilding CXX object examples/CMakeFiles/t16_sqlite_log.dir/t16_sqlite_log.cpp.o[0m
+[152.079s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_skipping.cpp.o[0m
+[154.563s] [ 86%] [32m[1mLinking CXX executable t15_nodes_mocking[0m
+[154.818s] [ 86%] Built target t15_nodes_mocking
+[158.072s] [ 86%] [32m[1mLinking CXX executable t16_sqlite_log[0m
+[158.161s] [ 86%] Built target t16_sqlite_log
+[158.171s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_subtree.cpp.o[0m
+[158.185s] [ 88%] [32mBuilding CXX object examples/CMakeFiles/t19_global_blackboard.dir/t19_global_blackboard.cpp.o[0m
+[158.530s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_substitution.cpp.o[0m
+[158.897s] [ 90%] [32mBuilding CXX object examples/CMakeFiles/ex02_runtime_ports.dir/ex02_runtime_ports.cpp.o[0m
+[158.959s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_switch.cpp.o[0m
+[162.432s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_tree.cpp.o[0m
+[162.909s] [ 92%] [32m[1mLinking CXX executable t19_global_blackboard[0m
+[163.010s] [ 93%] [32m[1mLinking CXX executable ex02_runtime_ports[0m
+[163.050s] [ 93%] Built target t19_global_blackboard
+[163.064s] [ 94%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_updates.cpp.o[0m
+[163.080s] [ 95%] [32mBuilding CXX object examples/CMakeFiles/t18_waypoints.dir/t18_waypoints.cpp.o[0m
+[163.081s] [ 95%] [32mBuilding CXX object examples/CMakeFiles/ex01_wrap_legacy.dir/ex01_wrap_legacy.cpp.o[0m
+[163.167s] [ 95%] Built target ex02_runtime_ports
+[163.198s] [ 96%] [32mBuilding CXX object examples/CMakeFiles/t17_blackboard_backup.dir/t17_blackboard_backup.cpp.o[0m
+[164.203s] [ 97%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_wakeup.cpp.o[0m
+[167.138s] [ 98%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/script_parser_test.cpp.o[0m
+[167.937s] [ 98%] [32m[1mLinking CXX executable ex01_wrap_legacy[0m
+[168.090s] [ 98%] Built target ex01_wrap_legacy
+[168.651s] [ 99%] [32m[1mLinking CXX executable t17_blackboard_backup[0m
+[168.742s] [ 99%] Built target t17_blackboard_backup
+[169.314s] [100%] [32m[1mLinking CXX executable t18_waypoints[0m
+[169.436s] [100%] Built target t18_waypoints
+[180.063s] [100%] [32m[1mLinking CXX executable behaviortree_cpp_test[0m
+[180.259s] [100%] Built target behaviortree_cpp_test
+[180.268s] Invoked command in '/home/oh/slam_ws/src/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --build /home/oh/slam_ws/src/build/behaviortree_cpp -- -j8 -l8
+[180.443s] Invoking command in '/home/oh/slam_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/behaviortree_cpp
+[180.449s] -- Install configuration: "Release"
+[180.449s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/bin/bt4_log_cat
+[180.450s] -- Set runtime path of "/home/oh/slam_ws/src/install/behaviortree_cpp/bin/bt4_log_cat" to ""
+[180.450s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/bin/bt4_plugin_manifest
+[180.450s] -- Set runtime path of "/home/oh/slam_ws/src/install/behaviortree_cpp/bin/bt4_plugin_manifest" to ""
+[180.450s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/lib/libbehaviortree_cpp.so
+[180.452s] -- Set runtime path of "/home/oh/slam_ws/src/install/behaviortree_cpp/lib/libbehaviortree_cpp.so" to ""
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/parallel_all_node.h
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/reactive_fallback.h
+[180.452s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/switch_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/reactive_sequence.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/while_do_else_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/manual_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/sequence_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/parallel_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/fallback_node.h
+[180.453s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/if_then_else_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/controls/sequence_with_memory_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/repeat_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/script_precondition.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/delay_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/loop_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/subtree_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/retry_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/updated_decorator.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/force_success_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/run_once_node.h
+[180.454s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/timeout_node.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/consume_queue.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/inverter_node.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/keep_running_until_failure_node.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorators/force_failure_node.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/action_node.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/json_export.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/scripting
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/scripting/operators.hpp
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/scripting/script_parser.hpp
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/scripting/any_types.hpp
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/blackboard.h
+[180.455s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_sqlite_logger.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/groot2_publisher.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_file_logger_v2.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_minitrace_logger.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_observer.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/groot2_protocol.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_file_logger.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_cout_logger.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/loggers/abstract_logger.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/exceptions.h
+[180.456s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/tree_node.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/bt_parser.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/control_node.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/behavior_tree.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/leaf_node.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/flatbuffers.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/stl_emulation.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/BT_logger_generated.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/base.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/bt_flatbuffer_helper.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/condition_node.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/decorator_node.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/basic_types.h
+[180.457s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/contrib
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/contrib/magic_enum.hpp
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/contrib/any.hpp
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/contrib/expected.hpp
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/contrib/json.hpp
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/script_condition.h
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/sleep_node.h
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/pop_from_queue.hpp
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/updated_action.h
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/always_success_node.h
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/unset_blackboard_node.h
+[180.458s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/always_failure_node.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/script_node.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/test_node.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/actions/set_blackboard_node.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/convert_impl.hpp
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/strcat.hpp
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/locked_reference.hpp
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/shared_library.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/signal.h
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/simple_string.hpp
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/wakeup_signal.hpp
+[180.459s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/safe_any.hpp
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/demangle_util.h
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/platform.hpp
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/utils/timer_queue.h
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/include/behaviortree_cpp/xml_parsing.h
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/library_path.sh
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/library_path.dsv
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/ament_index/resource_index/package_run_dependencies/behaviortree_cpp
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/ament_index/resource_index/parent_prefix_path/behaviortree_cpp
+[180.460s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/ament_prefix_path.sh
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/ament_prefix_path.dsv
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/path.sh
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/environment/path.dsv
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.bash
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.sh
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.zsh
+[180.461s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.dsv
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/package.dsv
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/ament_index/resource_index/packages/behaviortree_cpp
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/cmake/behaviortree_cppConfig.cmake
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/cmake/behaviortree_cppConfig-version.cmake
+[180.462s] -- Installing: /home/oh/slam_ws/src/install/behaviortree_cpp/share/behaviortree_cpp/package.xml
+[180.464s] Invoked command in '/home/oh/slam_ws/src/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oh/slam_ws/install/ros2_aruco:/home/oh/slam_ws/install/my_tf_package:/home/oh/slam_ws/install/my_tf2_package:/home/oh/slam_ws/install/my_docking:/home/oh/slam_ws/install/my_aruco_to_goal_pose_pkg:/home/oh/slam_ws/install/escape_from_cart:/opt/ros/humble /usr/bin/cmake --install /home/oh/slam_ws/src/build/behaviortree_cpp

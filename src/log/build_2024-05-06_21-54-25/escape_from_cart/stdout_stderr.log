@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/escape_from_cart/escape_from_cart.egg-info
+writing ../build/escape_from_cart/escape_from_cart.egg-info/PKG-INFO
+writing dependency_links to ../build/escape_from_cart/escape_from_cart.egg-info/dependency_links.txt
+writing entry points to ../build/escape_from_cart/escape_from_cart.egg-info/entry_points.txt
+writing requirements to ../build/escape_from_cart/escape_from_cart.egg-info/requires.txt
+writing top-level names to ../build/escape_from_cart/escape_from_cart.egg-info/top_level.txt
+writing manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+reading manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+writing manifest file '../build/escape_from_cart/escape_from_cart.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/oh/slam_ws/src/build/escape_from_cart/build
+creating /home/oh/slam_ws/src/build/escape_from_cart/build/lib
+creating /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+copying escape_from_cart/escape_accel.py -> /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+copying escape_from_cart/__init__.py -> /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart
+running install
+running install_lib
+creating /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+copying /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart/escape_accel.py -> /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+copying /home/oh/slam_ws/src/build/escape_from_cart/build/lib/escape_from_cart/__init__.py -> /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart
+byte-compiling /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py to escape_accel.cpython-310.pyc
+byte-compiling /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index
+creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index
+creating /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index/packages
+copying resource/escape_from_cart -> /home/oh/slam_ws/src/install/escape_from_cart/share/ament_index/resource_index/packages
+copying package.xml -> /home/oh/slam_ws/src/install/escape_from_cart/share/escape_from_cart
+running install_egg_info
+Copying ../build/escape_from_cart/escape_from_cart.egg-info to /home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/oh/slam_ws/src/build/escape_from_cart/install.log'
+  File "/home/oh/slam_ws/src/install/escape_from_cart/lib/python3.10/site-packages/escape_from_cart/escape_accel.py", line 3
+    from rclpy
+              ^
+SyntaxError: invalid syntax
+
